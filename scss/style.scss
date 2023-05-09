@@ -1,0 +1,28 @@
+/*valores generales*/
+
+body {
+    cursor: url(../imagenes/cursorr.png), auto;
+    }
+
+* {
+    margin: 0px;  
+}
+
+a{
+    cursor: url(../imagenes/cursorr.png), auto; 
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 0px 3px rgba(228, 167, 197, 0.918);
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "aAbstractGroovy";
+    src: url("../font/aAbstractGroovy.otf");
+    src: url("../font/aAbstractGroovy.ttf");
+}
+
+
+
+@import "base/extend";
+
+
