@@ -1,66 +1,23 @@
-/*valores generales*/
-body {
-  cursor: url(../imagenes/cursorr.png), auto;
-}
+/* Error: This file is already being loaded.
+ *    ,--> scss\base\_mapas.scss
+ * 1  | @import  "../base/mixins";
+ *    |          ^^^^^^^^^^^^^^^^ new load
+ *    '
+ *    ,--> scss\style.scss
+ * 29 | @import "base/mixins";
+ *    |         ============= original load
+ *    '
+ *   scss\base\_mapas.scss 1:10  @import
+ *   scss\base\_mixins.scss 2:9  @import
+ *   scss\style.scss 29:9        root stylesheet */
 
-* {
-  margin: 0px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: This file is already being loaded.\a    \250c \2500 \2500 > scss\\base\\_mapas.scss\a 1  \2502  @import  "../base/mixins";\d\a    \2502           ^^^^^^^^^^^^^^^^ new load\a    \2575 \a    \250c \2500 \2500 > scss\\style.scss\a 29 \2502  @import "base/mixins";\d\a    \2502          \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  original load\a    \2575 \a   scss\\base\\_mapas.scss 1:10  @import\a   scss\\base\\_mixins.scss 2:9  @import\a   scss\\style.scss 29:9        root stylesheet';
 }
-
-a {
-  cursor: url(../imagenes/cursorr.png), auto;
-  color: rgb(0, 0, 0);
-  text-shadow: 2px 0px 3px rgba(228, 167, 197, 0.918);
-  text-decoration: none;
-}
-
-@font-face {
-  font-family: "aAbstractGroovy";
-  src: url("../font/aAbstractGroovy.otf");
-  src: url("../font/aAbstractGroovy.ttf");
-}
-@media screen and (min-width: get(pantallagrande, pantallagrande)) and (max-width: get(pantallagrande, pantallagrande)) {
-  .fotter #texto-footer {
-    font-size: 1.2em;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    margin-bottom: 0.5%;
-    margin-top: 0%;
-    padding: 2%;
-    flex-wrap: wrap;
-  }
-  .fotter .link-footer {
-    box-shadow: -5px -5px 10px 0px rgba(250, 164, 207, 0.5);
-    font-family: "Times New Roman", Times, serif;
-    padding-top: 1%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.4em;
-  }
-  .fotter .candado {
-    width: 2.8rem;
-    margin-top: 1%;
-  }
-  .fotter .camion {
-    width: 2.8rem;
-    margin-top: 1%;
-  }
-  .fotter .datos {
-    margin-top: -5%;
-  }
-  .fotter .tarjeta {
-    width: 2.8rem;
-    margin-top: 1%;
-  }
-  .fotter .kitty {
-    width: 3.5%;
-    height: 3.5%;
-  }
-}
-
-/*# sourceMappingURL=style.css.map */
