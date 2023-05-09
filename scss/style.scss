@@ -2,6 +2,7 @@
 
 body {
     cursor: url(../imagenes/cursorr.png), auto;
+    
     }
 
 * {
@@ -23,6 +24,10 @@ a{
 
 
 
-@import "base/extend";
+
+@import "base/extends";
+@import "base/mixins";
+@import "base/mapas";
+@import "component/footer";
 
 

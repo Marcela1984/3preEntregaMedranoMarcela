@@ -1,0 +1,17 @@
+@import "../base/mapas";
+
+@mixin mediaqueries ($breakspoints) {
+    @media screen and (min-width: get($breakspoints, $breakspoints) ) and (max-width:get($breakspoints, $breakspoints) ){
+        @content;
+    }     
+
+}
+
+
+
+    
+
+
+
+
+

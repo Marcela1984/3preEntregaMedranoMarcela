@@ -1,1 +1,66 @@
+/*valores generales*/
+body {
+  cursor: url(../imagenes/cursorr.png), auto;
+}
 
+* {
+  margin: 0px;
+}
+
+a {
+  cursor: url(../imagenes/cursorr.png), auto;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 0px 3px rgba(228, 167, 197, 0.918);
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "aAbstractGroovy";
+  src: url("../font/aAbstractGroovy.otf");
+  src: url("../font/aAbstractGroovy.ttf");
+}
+@media screen and (min-width: get(pantallagrande, pantallagrande)) and (max-width: get(pantallagrande, pantallagrande)) {
+  .fotter #texto-footer {
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-top: 0%;
+    padding: 2%;
+    flex-wrap: wrap;
+  }
+  .fotter .link-footer {
+    box-shadow: -5px -5px 10px 0px rgba(250, 164, 207, 0.5);
+    font-family: "Times New Roman", Times, serif;
+    padding-top: 1%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 1.4em;
+  }
+  .fotter .candado {
+    width: 2.8rem;
+    margin-top: 1%;
+  }
+  .fotter .camion {
+    width: 2.8rem;
+    margin-top: 1%;
+  }
+  .fotter .datos {
+    margin-top: -5%;
+  }
+  .fotter .tarjeta {
+    width: 2.8rem;
+    margin-top: 1%;
+  }
+  .fotter .kitty {
+    width: 3.5%;
+    height: 3.5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
