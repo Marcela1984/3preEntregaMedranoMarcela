@@ -5,9 +5,9 @@ body {
     
     }
 
-* {
-    margin: 0px;  
-}
+    * {
+        margin: 0px;  
+    }
 
 a{
     cursor: url(../imagenes/cursorr.png), auto; 
@@ -24,11 +24,13 @@ a{
 
 
 
-
-@import "base/extends";
-@import "base/mapas";
 @import "base/mixin";
+@import "base/listas";
 @import "component/footer";
+@import "component/whasapp";
+@import "component/headermobile-copy";
+
+
 
 
 

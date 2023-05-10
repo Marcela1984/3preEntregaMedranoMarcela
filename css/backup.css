@@ -3090,7 +3090,7 @@ a{
     }
 
     /* FOOTER*/
-    #texto-footer-butterfly{
+    #texto-footer{
         font-size: 1em;
         display: flex;
         justify-content: space-between;
@@ -3102,7 +3102,7 @@ a{
         flex-wrap: wrap;
 }
 
-    .link-footer-butterfly{
+    .link-footer{
         box-shadow: -5px -5px 10px 0px rgba(250, 164, 207, 0.5);
         font-family: 'Times New Roman', Times, serif;
         padding-top: 1%;

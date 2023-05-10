@@ -1,0 +1,99 @@
+@import "../base/mixin";
+@import "../base/listas";
+
+
+header{
+    #encabezado{
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        padding-bottom: 0.5rem;
+        height: 2.5rem;
+        flex-wrap: wrap; 
+        position: fixed;
+        width: 100%;
+        top: 0%;
+        z-index: 2;
+        font-family: 'Times New Roman', Times, serif;
+        div{
+    .fontencabezado{
+        color:rgb(245, 217, 232);
+        font-size: 0.87em;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -20%);
+        text-align: center;
+            }
+            p
+        }
+        div{
+            #caja-principal-encabezado
+            div{
+                #caja-principal-encabezado
+                div{
+                    #cajitas-encabezado1{
+                        position: absolute;
+                        top: 60%;
+                        left: 1%;
+                        transform: translateY(-60%);
+                        flex-wrap: wrap;
+                    }
+                    a{
+                        img{
+                            .tamaño-imagen-header{
+                                width: 90px; 
+                            }
+                        }
+                    }
+                }
+            }
+            div{
+                #cajitas-encabezado2{
+                    position: absolute;
+                    top: 60%;
+                    right: 1%;
+                    transform: translateY(-60%);
+                    flex-wrap: wrap;
+                }
+                img{
+                    .carrito{
+                        width: 30px;  
+                    }
+                }
+                a{
+                    img{
+                        .instagram {
+                            width: 25px;
+                        }
+                    }
+                }
+                a{
+                    img{
+                        .facebook{
+                            width: 25px;
+                        }
+
+                    }
+                }
+            }
+        
+            
+        }
+    }
+
+}
+
+    @media screen and (max-width: 456px) {
+        #encabezado{
+            display: none;
+        }
+        .fontencabezado,.cajitas-encabezado1, .cajitas-encabezado2, .tamaño-imagen-header, .carrito, .instagram, .facebook {
+            display: none;
+        }
+
+    }
+    
+
