@@ -1,8 +1,8 @@
-@import  "../base/mixins";
 
-$breakspoints:(
- mobile: (min-width: 320px),
- tablet: (min-width: 456px),
- desktop: (min-width: 960px),
+
+$breakspoints: (
+ mobile: (min-width: 320px) and (max-width: 456px),
+ tablet: (min-width: 457px) and (max-width: 960px),
+ desktop: (min-width: 961px) and (max-width: 1198px),
  pantallegrande: (min-width: 1198px)
-);
+)

@@ -1,0 +1,10 @@
+
+
+@mixin mediaqueries ($breakspoint) {
+    @media screen and (min-width: map-get($breakspoints, $breakspoint) ) and (max-width:map.get($breakspoints, $breakspoins) ){
+        @content;
+    }
+
+}
+
+
