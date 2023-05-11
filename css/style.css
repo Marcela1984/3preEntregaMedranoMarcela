@@ -583,7 +583,7 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
     display: none;
   }
 }
-header #encabezado {
+#encabezado {
   background-color: rgba(0, 0, 0, 0.8);
   display: flex;
   position: relative;
@@ -597,7 +597,7 @@ header #encabezado {
   z-index: 2;
   font-family: "Times New Roman";
 }
-header #encabezado div .fontencabezado {
+#encabezado div .fontencabezado {
   color: rgb(243, 197, 222);
   font-size: 0.87em;
   flex-wrap: wrap;
@@ -607,30 +607,30 @@ header #encabezado div .fontencabezado {
   transform: translate(-50%, -20%);
   text-align: center;
 }
-header #encabezado div #caja-principal-encabezado div #caja-principal-encabezado div #cajitas-encabezado1 {
+#encabezado div #caja-principal-encabezado div #caja-principal-encabezado div #cajitas-encabezado1 {
   position: absolute;
   top: 60%;
   left: 1%;
   transform: translateY(-60%);
   flex-wrap: wrap;
 }
-header #encabezado div #caja-principal-encabezado div #caja-principal-encabezado div a img .tamaño-imagen-header {
+#encabezado div #caja-principal-encabezado div #caja-principal-encabezado div a img .tamaño-imagen-header {
   width: 90px;
 }
-header #encabezado div div #cajitas-encabezado2 {
+#encabezado div div #cajitas-encabezado2 {
   position: absolute;
   top: 60%;
   right: 1%;
   transform: translateY(-60%);
   flex-wrap: wrap;
 }
-header #encabezado div div img .carrito {
+#encabezado div div img .carrito {
   width: 30px;
 }
-header #encabezado div div a img .instagram {
+#encabezado div div a img .instagram {
   width: 25px;
 }
-header #encabezado div div a img .facebook {
+#encabezado div div a img .facebook {
   width: 25px;
 }
 
@@ -1070,6 +1070,362 @@ header #encabezado div div a img .facebook {
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;
     padding-left: 0.8rem;
+  }
+}
+#grid-contenedor-contacto {
+  border: 2px solid #ffffff;
+  margin-top: 2.5rem;
+  margin-bottom: 0rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "formularioo menuu" "formularioo menuu" "mapa menuu";
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto {
+  grid-area: menuu;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 37%;
+  width: 60%;
+  flex-wrap: wrap;
+  top: 0%;
+  box-shadow: none;
+  border-bottom-left-radius: 1.8em;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  flex-direction: column;
+  position: relative;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .barbie-contacto {
+  border: 2px solid rgb(255, 255, 255);
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .barbie-contacto .size-barbie-contacto {
+  width: 75%;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10%;
+  left: 10%;
+  top: 15%;
+  align-items: center;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu {
+  font-family: "Times New Roman", Times, serif !important;
+  background-color: rgba(248, 240, 244, 0.8) !important;
+  filter: none !important;
+  border: 0em;
+  border-radius: 0em !important;
+  font-size: 0.7rem !important;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown {
+  font-family: "Times New Roman", Times, serif !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  filter: none !important;
+  border-radius: 0em !important;
+  font-size: 0.7rem !important;
+  margin-top: 10% !important;
+  z-index: 1;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown a .btn-secondary {
+  cursor: url(../imagenes/cursorr.png), auto;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown a .dropdown-toggle {
+  cursor: url(../imagenes/cursorr.png), auto;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+  background-color: rgba(248, 83, 160, 0.8);
+  border-radius: 0%;
+  flex-wrap: wrap;
+  filter: none;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  clear: both;
+  font-size: 0.65em;
+  color: rgb(0, 0, 0);
+  padding-bottom: 0%;
+  text-decoration: none;
+  background-color: rgba(248, 83, 160, 0.8);
+  flex-wrap: wrap;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .boton-menu {
+  font-family: "Times New Roman", Times, serif !important;
+  background-color: rgba(248, 240, 244, 0.8) !important;
+  filter: none !important;
+  border: 0em;
+  border-radius: 0em !important;
+  font-size: 0.7rem !important;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo {
+  grid-area: formularioo;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 2px solid rgb(255, 255, 255);
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages {
+  font-family: "aAbstractGroovy", cursive;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-left: 2%;
+  border: 2px solid rgb(255, 255, 255);
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages nav a {
+  font-size: 20px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages nav .logo-corazon-pag {
+  width: 8%;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages nav span {
+  font-size: 30px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  padding: 3.1em 3.43em;
+  background-image: url(../imagenes/fondodestellos.png);
+  box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+  text-align: center;
+  border-radius: 1.87em;
+  width: 21.25em;
+  position: relative;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
+  margin-bottom: 0.93em;
+  font-size: 0.81em;
+  font-family: "aAbstractGroovy", cursive;
+  border-radius: 10px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=text],
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
+  margin-bottom: 0.93em;
+  font-size: 0.81em;
+  font-family: "aAbstractGroovy", cursive;
+  border-radius: 10px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=tel],
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
+  margin-bottom: 0.93em;
+  font-size: 0.81em;
+  font-family: "aAbstractGroovy", cursive;
+  border-radius: 10px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=email],
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
+  margin-bottom: 0.93em;
+  font-size: 0.81em;
+  font-family: "aAbstractGroovy", cursive;
+  border-radius: 10px;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario textarea {
+  padding: 0 10px;
+  width: 100%;
+  height: 5%;
+  padding: 0.93em 1.56em;
+  border-radius: 1.5em;
+  margin-bottom: 1.25em;
+  background-color: #fce7f1;
+  border: 2px solid #fce7f1;
+  outline: none;
+  font-size: 0.8em;
+  text-align: center;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=submit] {
+  width: 100%;
+  height: 5%;
+  padding: 0.93em 1.56em;
+  border-radius: 1.5em;
+  margin-bottom: 1.25em;
+  background-color: #fce7f1;
+  border: 2px solid #fce7f1;
+  outline: none;
+  font-size: 0.8em;
+  text-align: center;
+  cursor: url(../../imagenes/cursorr.png);
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=submit]:hover {
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .btn {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: url(../../imagenes/cursorr.png);
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .btn:hover {
+  background-color: #0062cc;
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .btn {
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: url(../../imagenes/cursorr.png);
+}
+#grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .btn:hover {
+  background-color: #0069d9;
+}
+#grid-contenedor-contacto section #mapa {
+  grid-area: mapa;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 70%;
+  justify-self: center;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+#grid-contenedor-contacto section #mapa iframe, #grid-contenedor-contacto section #mapa .mapa {
+  width: 100%;
+  border-radius: 1.8em;
+}
+@media screen and (min-width: 320px) and (max-width: 456px) {
+  #grid-contenedor-contacto .nav-item {
+    font-family: "Times New Roman", Times, serif;
+  }
+  #grid-contenedor-contacto .dropdown {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 5rem;
+    border-radius: 0px;
+    background-color: transparent;
+    filter: none;
+    background-color: rgba(235, 26, 113, 0.3);
+    border-color: transparent;
+  }
+  #grid-contenedor-contacto .dropdown {
+    z-index: 1;
+  }
+  #grid-contenedor-contacto .dropdown-menu {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+    background-color: rgba(248, 83, 160, 0.8);
+    border-radius: 0%;
+    flex-wrap: wrap;
+    filter: none;
+  }
+  #grid-contenedor-contacto .dropdown-item {
+    display: block;
+    font-family: "Times New Roman", Times, serif;
+    display: flex;
+    clear: both;
+    font-size: 0.65em;
+    color: rgb(0, 0, 0);
+    padding-bottom: 0%;
+    text-decoration: none;
+    background-color: rgba(248, 83, 160, 0.8);
+    flex-wrap: wrap;
+  }
+  #grid-contenedor-contacto .boton-menu {
+    font-family: "Times New Roman", Times, serif !important;
+    background-color: rgba(248, 240, 244, 0.8) !important;
+    filter: none !important;
+    border: 0em;
+    border-radius: 0em !important;
+    font-size: 0.7rem !important;
+  }
+  #grid-contenedor-contacto .dropdown {
+    font-family: "Times New Roman", Times, serif !important;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    filter: none !important;
+    border-radius: 0em !important;
+    font-size: 0.7rem !important;
+    margin-top: 10% !important;
   }
 }
 

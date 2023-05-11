@@ -3,8 +3,8 @@
 
 
 
-header{
-    #encabezado{
+
+        #encabezado{
         background-color: rgba(0, 0, 0, 0.8);
         display: flex;
         position: relative;
@@ -87,7 +87,7 @@ header{
         }
     }
 
-}
+
 
     @media screen and (max-width: 456px) {
         #encabezado{
