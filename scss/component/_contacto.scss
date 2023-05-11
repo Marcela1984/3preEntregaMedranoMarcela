@@ -1,0 +1,84 @@
+
+
+
+$input-border-color: #ccc;
+$input-border-radius: 5px;
+$input-height: 40px;
+$input-font-size: 16px;
+$label-color: #666;
+$label-font-size: 16px;
+$button-bg-color: #ff69b4;
+$button-color: #fff;
+$button-border-radius: 5px;
+
+.input-group-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  label {
+    color: $label-color;
+    font-size: $label-font-size;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    border: 1px solid $input-border-color;
+    border-radius: $input-border-radius;
+    height: $input-height;
+    font-size: $input-font-size;
+    padding: 0 10px;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px $input-border-color;
+    }
+  }
+
+  input[type="submit"] {
+    background-color: $button-bg-color;
+    color: $button-color;
+    border: none;
+    border-radius: $button-border-radius;
+    height: $input-height;
+    font-size: $input-font-size;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken($button-bg-color, 10%);
+    }
+  }
+}
+
+
+$primary-color: #007bff;
+
+.btn {
+  color: #fff;
+  background-color: $primary-color;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+
+.btn {
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0069d9;
+  }
+  

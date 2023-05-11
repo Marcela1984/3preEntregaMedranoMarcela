@@ -1,3 +1,7 @@
+@import "../base/mixin";
+@import "../base/listas";
+
+
 #whatsapp{
     position: fixed;
     bottom: 0;
@@ -12,11 +16,27 @@
             width: 50px;
         }
     }
+
+    @include mobile{
+        .icono{
+            width: 40px;
+        }
+      }
+    
+    @include tablet{
+        .icono{
+            width: 45px;
+        }
+      }
+      
 }
 
 
 
-#whatssap{
+
+  
+
+/*#whatssap{
     position: fixed;
     bottom: 0;
     right: 0;
@@ -43,4 +63,4 @@
     
     }
     
-}
+}*/

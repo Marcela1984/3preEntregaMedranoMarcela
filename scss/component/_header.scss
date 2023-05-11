@@ -1,5 +1,6 @@
-@import "../base/mixin";
 @import "../base/listas";
+@import "../base/mixin";
+
 
 
 header{
@@ -15,10 +16,10 @@ header{
         width: 100%;
         top: 0%;
         z-index: 2;
-        font-family: 'Times New Roman', Times, serif;
+        font-family: nth($font-family, 1);
         div{
     .fontencabezado{
-        color:rgb(245, 217, 232);
+        color:nth($colores,1);
         font-size: 0.87em;
         flex-wrap: wrap;
         position: absolute;
@@ -27,7 +28,9 @@ header{
         transform: translate(-50%, -20%);
         text-align: center;
             }
-            p
+            p{
+                //
+            }
         }
         div{
             #caja-principal-encabezado

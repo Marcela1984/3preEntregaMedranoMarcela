@@ -1,0 +1,118 @@
+@import "../base/mixin";
+@import "../base/listas";
+
+/*SECCION*/
+section{
+#galeria{
+    cursor: url(../../imagenes/cursorr.png), auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-bottom: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: 'Raleway Dots', cursive;
+    text-shadow: 4px 0px 3px rgba(255, 255, 255, 0.918) , 4px 0px 3px rgba(153, 122, 137, 0.904);
+    .textosobrefoto{
+        position: relative;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    div{
+        a {
+            .fairy{
+                object-fit: cover;
+                width: 25em;
+                height: 25em;
+                flex-wrap: wrap;
+            }
+        }
+        .texto-encima-video1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4.4em;
+        font: bold;
+        flex-wrap: wrap;
+            a{
+               //****
+        }
+    }
+}
+
+.textosobrefoto{
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    div{
+        a {
+            .angel{
+                object-fit: cover;
+                width: 25em;
+                height: 25em;
+                flex-wrap: wrap; 
+        }
+        }
+        .texto-encima-video2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4.4em;
+        font: bold;
+        flex-wrap: wrap;
+            a {
+                //***
+            }
+        }
+    }
+}  
+
+.textosobrefoto{
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    div{
+        a {
+            .gothic{
+                object-fit: cover;
+                width: 25em;
+                height: 25em;
+                flex-wrap: wrap;   
+            } 
+        }   
+        .texto-encima-fotos{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 4.4em;
+        font: bold;
+        flex-wrap: wrap;
+        a {
+
+            .angel{
+                margin-bottom: 0%;
+                padding-bottom: 0%;
+            }
+            
+        }
+        }
+    }
+}
+
+}
+
+}
+
+}
+
+@include mobile{
+
+}
