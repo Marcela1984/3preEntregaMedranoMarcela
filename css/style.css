@@ -1083,7 +1083,7 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto {
   grid-area: menuu;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -1104,7 +1104,7 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   position: relative;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .barbie-contacto {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 4;
   margin-top: 5%;
   margin-right: 5%;
   margin-left: 5%;
@@ -1122,16 +1122,16 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   align-items: center;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu {
-  font-family: "Times New Roman", Times, serif !important;
-  background-color: rgba(248, 240, 244, 0.8) !important;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1 !important;
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 16 !important;
   filter: none !important;
   border: 0em;
   border-radius: 0em !important;
   font-size: 0.7rem !important;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown {
-  font-family: "Times New Roman", Times, serif !important;
-  background-color: rgba(255, 255, 255, 0.8) !important;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1 !important;
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 16 !important;
   filter: none !important;
   border-radius: 0em !important;
   font-size: 0.7rem !important;
@@ -1145,88 +1145,88 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   cursor: url(../imagenes/cursorr.png), auto;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   font-size: 1rem;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   border-radius: 0%;
   flex-wrap: wrap;
   filter: none;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
-  color: rgb(0, 0, 0);
+  color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 15;
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
   color: rgb(0, 0, 0);
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
   color: rgb(0, 0, 0);
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
   color: rgb(0, 0, 0);
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
   color: rgb(0, 0, 0);
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .dropdown-menu p a .dropdown-item {
   display: block;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   clear: both;
   font-size: 0.65em;
   color: rgb(0, 0, 0);
   padding-bottom: 0%;
   text-decoration: none;
-  background-color: rgba(248, 83, 160, 0.8);
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
   flex-wrap: wrap;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #lista-contacto .caja-botones .boton-menu .dropdown .boton-menu {
-  font-family: "Times New Roman", Times, serif !important;
-  background-color: rgba(248, 240, 244, 0.8) !important;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1 !important;
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 16 !important;
   filter: none !important;
   border: 0em;
   border-radius: 0em !important;
@@ -1239,7 +1239,7 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 4;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages {
   font-family: "aAbstractGroovy", cursive;
@@ -1249,7 +1249,7 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   flex-direction: column;
   margin-top: 2%;
   margin-left: 2%;
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 4;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo .tittle-pages nav a {
   font-size: 20px;
@@ -1261,14 +1261,14 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   font-size: 30px;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   display: flex;
   align-items: center;
   align-self: center;
   justify-content: center;
   padding: 3.1em 3.43em;
   background-image: url(../imagenes/fondodestellos.png);
-  box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+  box-shadow: 0 0 20px rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 9;
   text-align: center;
   border-radius: 1.87em;
   width: 21.25em;
@@ -1282,28 +1282,28 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
   margin-bottom: 0.93em;
   font-size: 0.81em;
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 2;
   border-radius: 10px;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=text],
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
   margin-bottom: 0.93em;
   font-size: 0.81em;
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 2;
   border-radius: 10px;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=tel],
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
   margin-bottom: 0.93em;
   font-size: 0.81em;
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 2;
   border-radius: 10px;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario input[type=email],
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario label {
   margin-bottom: 0.93em;
   font-size: 0.81em;
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 2;
   border-radius: 10px;
 }
 #grid-contenedor-contacto #grid-menu-desplegable-page-contacto .seccion-menu #formularioo form .input-group-formulario textarea {
@@ -1313,8 +1313,8 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   padding: 0.93em 1.56em;
   border-radius: 1.5em;
   margin-bottom: 1.25em;
-  background-color: #fce7f1;
-  border: 2px solid #fce7f1;
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
+  border: 2px solid rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
   outline: none;
   font-size: 0.8em;
   text-align: center;
@@ -1329,8 +1329,8 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
   padding: 0.93em 1.56em;
   border-radius: 1.5em;
   margin-bottom: 1.25em;
-  background-color: #fce7f1;
-  border: 2px solid #fce7f1;
+  background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
+  border: 2px solid rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 1;
   outline: none;
   font-size: 0.8em;
   text-align: center;
@@ -1377,51 +1377,51 @@ header div div #navbarSupportedContent ul .navbar-nav .me-auto .mb-2 .mb-lg-0 li
 }
 @media screen and (min-width: 320px) and (max-width: 456px) {
   #grid-contenedor-contacto .nav-item {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
   }
   #grid-contenedor-contacto .dropdown {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
     font-size: 5rem;
     border-radius: 0px;
     background-color: transparent;
     filter: none;
-    background-color: rgba(235, 26, 113, 0.3);
+    background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 2;
     border-color: transparent;
   }
   #grid-contenedor-contacto .dropdown {
     z-index: 1;
   }
   #grid-contenedor-contacto .dropdown-menu {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
     font-size: 1rem;
-    background-color: rgba(248, 83, 160, 0.8);
+    background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
     border-radius: 0%;
     flex-wrap: wrap;
     filter: none;
   }
   #grid-contenedor-contacto .dropdown-item {
     display: block;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1;
     display: flex;
     clear: both;
     font-size: 0.65em;
-    color: rgb(0, 0, 0);
+    color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 15;
     padding-bottom: 0%;
     text-decoration: none;
-    background-color: rgba(248, 83, 160, 0.8);
+    background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 10;
     flex-wrap: wrap;
   }
   #grid-contenedor-contacto .boton-menu {
-    font-family: "Times New Roman", Times, serif !important;
-    background-color: rgba(248, 240, 244, 0.8) !important;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1 !important;
+    background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 16 !important;
     filter: none !important;
     border: 0em;
     border-radius: 0em !important;
     font-size: 0.7rem !important;
   }
   #grid-contenedor-contacto .dropdown {
-    font-family: "Times New Roman", Times, serif !important;
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    font-family: "Times New Roman", Times, serif, "aAbstractGroovy", cursive, 1 !important;
+    background-color: rgb(243, 197, 222), rgba(245, 8, 138, 0.5), rgba(247, 124, 183, 0.5), #ffffff, rgba(235, 47, 141, 0.1), rgba(247, 225, 241, 0.8), #f7acd7, rgb(248, 160, 209), rgba(250, 164, 207, 0.5), rgba(248, 83, 160, 0.8), rgba(250, 164, 207, 0.9), rgba(123, 170, 224, 0.918), rgba(187, 44, 44, 0.918), rgba(209, 205, 207, 0.5), black, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0), 4 !important;
     filter: none !important;
     border-radius: 0em !important;
     font-size: 0.7rem !important;
