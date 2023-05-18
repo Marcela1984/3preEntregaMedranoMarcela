@@ -50,7 +50,7 @@
                                 
                             }//</div>//
                         }//</ul>dropdown//   
-                    ul .boton-menu{
+                    ul.boton-menu{
                     a{}
                     }//</ul>//
                 }//</div>caja-botones//
@@ -73,7 +73,7 @@
         }//</h1>//
         form {
             
-            div .input-group-formulario{
+            div.input-group-formulario{
                 
                  label{
                 
@@ -99,5 +99,99 @@
             }//</div>//
         }//</form>//
     }//</section>formularioo//
+}
+
+
+@include mobile{
+        /*MENU DESPLEGABLE*/
+        #grid-menu-desplegable-page{
+            display: none;
+        }
+    
+        div.caja-botones, .barbie-contacto{
+            display: none;
+        }
+    
+}
+
+@include mobile{
+    #grid-contenedor{
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .barbie-contacto{
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    .size-barbie-contacto{
+        width: 75%;
+    }
+
+    
+    .dropdown{
+        z-index: 1;
+    }
+
+    .boton-menu:hover{
+        background-color: white;
+    }
+
+
+    /*MAPA*/
+    #mapa {
+        grid-area: mapa;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    iframe{
+        border-radius: 1.8em;
+    
+}
+
+
+        /*MAPA*/
+        #mapa {
+            grid-area: mapa;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-self: center;
+            justify-self: center;
+            margin-top: 5%;
+            margin-bottom: 0%;
+        }
+
+        .mapa {
+            width: 100%;
+            height: auto;
+        }
+
+        iframe{
+            border-radius: 1.8em;
+        }  
+        
+
+        #grid-menu-desplegable-page-contacto{
+           display: none;
+        }
+
 }
     
