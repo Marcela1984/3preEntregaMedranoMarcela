@@ -1,638 +1,135 @@
-@import ".././base/listas";
-@import ".././base/mixin";
+@import "../base/listas";
+@import "../base/mixin";
 
 
 
+/*<!--MENU DESPLEGABLE-->*/
 #grid-contenedor-contacto{
-            border: 2px solid nth($colores,4);
-            margin-top: 2.5rem;
-            margin-bottom: 0rem;
-            display: grid; 
-            grid-template-columns: 2fr 1fr;
-            grid-template-rows: 1fr;
-            grid-template-areas:
-            "formularioo menuu"
-            "formularioo menuu"
-            "mapa menuu" ;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+    display: grid; 
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "formularioo menuu"
+    "formularioo menuu"
+    "mapa menuu"       ;
+
     #grid-menu-desplegable-page-contacto{
-            grid-area: menuu;
-            font-family:  ($font-family,1);
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            left: 37%;
-            width: 60%;
-            flex-wrap: wrap;
-            top: 0%;
-            box-shadow: none;
-            border-bottom-left-radius: 1.8em;
-        .seccion-menu{
+        .seccion-menu{ 
             #lista-contacto{
-              display: flex;
-              flex-wrap: wrap;
-              align-items: end;
-              padding-top: 0%;
-              padding-bottom: 0%;
-              flex-direction: column;
-              position: relative;
-                .barbie-contacto{
-                  border: 2px solid ($colores, 4);
-                  margin-top: 5%;
-                  margin-right: 5%;
-                  margin-left: 5%;
-                    .size-barbie-contacto{ 
-                      width: 75%;
-                    }
-                }
-                .caja-botones{
-                  display: flex;
-                  flex-direction: column;
-                  position: absolute;
-                  right: 10%;
-                  left: 10%;
-                  top: 15%;
-                  align-items: center;
-                    .boton-menu{
-                      font-family:  ($font-family,1) !important; 
-                      background-color: ($colores, 16)!important;
-                      filter: none!important;
-                      border: 0em;
-                      border-radius: 0em !important;
-                      font-size: 0.7rem!important;
-                      a  {  }  //boton menu//    
-                    .dropdown{
-                      font-family:  ($font-family,1) !important; 
-                      background-color: ($colores, 16)!important;
-                      filter: none!important;
-                      border-radius: 0em !important;
-                      font-size: 0.7rem!important;
-                      margin-top: 10%!important;
-                      z-index: 1;   
-                        a {
-                          .btn-secondary {cursor: url(../imagenes/cursorr.png), auto; }
-                          .dropdown-toggle {cursor: url(../imagenes/cursorr.png), auto; }
-                            }  //navegable//
-                            .dropdown-menu{
-                              font-family: ($font-family,1);
-                              font-size: 1rem;
-                              background-color: ($colores, 10);
-                              border-radius: 0%;
-                              flex-wrap: wrap;
-                              filter: none;  
-                              p{
-                                a{
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family:  ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color:($colores, 15);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color: ($colores, 10);
-                                    flex-wrap: wrap;
-                                  }
-                                } 
-                              }
-                              p{
-                                a{
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family:  ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color: rgb(0, 0, 0);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color: ($colores, 10);
-                                    flex-wrap: wrap;
-                                  }
-                                } 
-                              }
-                              p{
-                                a {
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family:  ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color: rgb(0, 0, 0);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color: ($colores, 10);
-                                    flex-wrap: wrap;
-                                  }
+                ul .barbie-contacto{
+                    img .size-barbie-contacto {}
+                }//</ul>//
+                div .caja-botones{
+                    ul .boton-menu{
+                    a{}
+                }//</ul>//         
+                    ul .dropdown{
+                        a .btn-secondary {} 
+                            div .dropdown-menu{
+                                p{
+                                    a .dropdown-item{}
                                 }
-                              }
-                              
-                              p{
-                                a {
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family:  ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color: rgb(0, 0, 0);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color: ($colores, 10);
-                                    flex-wrap: wrap;
-                                  }
+                                p{
+                                    a .dropdown-item{}
                                 }
-                              }
-                              p{
-                                a {
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family: ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color: rgb(0, 0, 0);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color:($colores, 10);
-                                    flex-wrap: wrap;
-                                  }
+                                p{
+                                    a .dropdown-item{}
                                 }
-                              }
-                              p{
-                                a {
-                                  .dropdown-item{
-                                    display: block;
-                                    font-family:  ($font-family,1);
-                                    display: flex;
-                                    clear: both;
-                                    font-size: 0.65em;
-                                    color: rgb(0, 0, 0);
-                                    padding-bottom: 0%;
-                                    text-decoration: none;
-                                    background-color: ($colores, 10);
-                                    flex-wrap: wrap;
+                                p{
+                                    a .dropdown-item{}
                                 }
-                              }
-                            }//dropdown-menu
-                    }//dropdown//  
-                    .boton-menu{
-                      font-family: ($font-family,1) !important; 
-                      background-color: ($colores, 16)!important;
-                      filter: none!important;
-                      border: 0em;
-                      border-radius: 0em !important;
-                      font-size: 0.7rem!important;
-                      a{}
-                    }
-                }///caja-botones//
-            }//lista//         
-        }//seccion menu//
-    }//#grid-menu-desplegable-page-contacto//
+                                p{
+                                    a .dropdown-item{}
+                                }
+                                p{
+                                    a .dropdown-item{}
+                                }
+                                
+                            }//</div>//
+                        }//</ul>dropdown//   
+                    ul .boton-menu{
+                    a{}
+                    }//</ul>//
+                }//</div>caja-botones//
+            }//</div>//         
+        }//</div>//
+    }//</section>*//
+
+
     #formularioo{
-            grid-area: formularioo;
-            display: flex;
-            position: relative;
-            flex-direction: column;
-            justify-content: center;
-            flex-wrap: wrap;
-            border: 2px solid ($colores, 4);
-        .tittle-pages{
-            font-family:'aAbstractGroovy', cursive;
-            display: flex;
-            justify-content: center;
-            position: relative;
-            flex-direction: column;
-            margin-top: 2%;
-            margin-left: 2%;
-            border: 2px solid ($colores, 4);
-            nav{ a {font-size: 20px;}
-            .logo-corazon-pag{width: 8%;}
-            span{font-size: 30px;}
-            }//navegable//
-        }//tittle-page//
+        
+        h1.tittle-pages{
+            
+            nav{
+            a.inicio-contacto{ 
+            //Inicio//
+            }//</a>//
+            img.logo-corazon-pag{}
+            span{}
+            }//<nav>//
+        }//</h1>//
         form {
-          font-family: ($font-family,1);
-          display: flex;
-          align-items: center;
-          align-self: center;
-          justify-content: center;
-          padding: 3.1em 3.43em;
-          background-image: url(../imagenes/fondodestellos.png);
-          box-shadow: 0 0 20px ($colores, 9);
-          text-align: center;
-          border-radius: 1.87em;
-          width: 21.25em;
-          position: relative;
-         .input-group-formulario {
-              display: flex;
-              flex-direction: column;
-              gap: 10px;
             
-              label {
-                margin-bottom: 0.93em;
-                font-size: 0.81em;
-                font-family: ($font-family,2);
-                border-radius: 10px;
-              }
-              input[type="text"],
-              label {
-                margin-bottom: 0.93em;
-                font-size: 0.81em;
-                font-family: ($font-family,2);
-                border-radius: 10px;
-              }
-              input[type="tel"],
-              label {
-                margin-bottom: 0.93em;
-                font-size: 0.81em;
-                font-family:  ($font-family,2);
-                border-radius: 10px;
-              }
-              input[type="email"],
-              label {
-                margin-bottom: 0.93em;
-                font-size: 0.81em;
-                font-family: ($font-family,2);
-                border-radius: 10px;
-              }
-              textarea {
-              padding: 0 10px;
-              width: 100%;
-              height: 5%;
-              padding: 0.93em 1.56em;
-              border-radius: 1.5em;
-              margin-bottom: 1.25em;
-              background-color: ($colores, 1);
-              border: 2px solid ($colores, 1);
-              outline: none;
-              font-size: 0.8em;
-              text-align: center;
-          
-                &:focus {
-                  outline: none;
-                  box-shadow: 0 0 5px ($colores, 1);
-                }
-              }
-            
-              input[type="submit"] {
-                width: 100%;
-                height: 5%;
-                padding: 0.93em 1.56em;
-                border-radius: 1.5em;
-                margin-bottom: 1.25em;
-                background-color: ($colores, 1);
-                border: 2px solid ($colores, 1);
-                outline: none;
-                font-size: 0.8em;
-                text-align: center;
-                cursor: url(../../imagenes/cursorr.png);
-            
-                &:hover {
-                  background-color: ($colores, 1);
-                }
-              }
-            }
-            
-            
-            $primary-color: #007bff;
-            
-            .btn {
-              color: #fff;
-              background-color: #007bff;
-              border: none;
-              padding: 10px 20px;
-              border-radius: 5px;
-              cursor: url(../../imagenes/cursorr.png);
+            div .input-group-formulario{
                 
-              &:hover {
-                background-color: darken($primary-color, 10%);
-              }
-            }
-            
-            
-            .btn {
-                color: #fff;
-                background-color: #007bff;
-                border: none;
-                padding: 10px 20px;
-                border-radius: 5px;
-                cursor: url(../../imagenes/cursorr.png);
-              }
-              
-              .btn:hover {
-                background-color: #0069d9;
-              }
-            }//input-group-formulario//
+                 label{
+                
+                 }
+                 input #name{}
+                 label{
+                
+                 }
+                 input #phone{}
+                 label{
+                
+                 }
+                 input #name{}
+                 label{
+                 
+                 }
+                textarea #message{
+                    
+                }
+                input .btn{
+                    
+                }
+            }//</div>//
+        }//</form>//
+    }//</section>formularioo//
 
-              }//imput grup formulario//
-         
-            }//form//
-}//formulario///
-    section{
-   #mapa{
-            grid-area: mapa;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            width: 70%;
-            justify-self: center;
-            margin-top: 5%;
-            margin-bottom: 3%;
-        iframe, .mapa{
-            width: 100%;
-            border-radius: 1.8em;
-        } 
-      }
-    }
-//main//
-
-
-  @include mobile{
-    .nav-item{
-      font-family: ($font-family,1);
-  }
-
-  .dropdown{
-      font-family: ($font-family,1);
-      font-size: 5rem;
-      border-radius: 0px;
-      background-color:transparent ;
-      filter: none;
-      background-color: ($colores,2);
-      border-color: transparent;
-  }
-
-  .dropdown{
-      z-index: 1;   
-  }
-  
-  .dropdown-menu{
-      font-family: ($font-family,1);
-      font-size: 1rem;
-      background-color: ($colores,10);
-      border-radius: 0%;
-      flex-wrap: wrap;
-      filter: none;    
-  }
-  
-  .dropdown-item {
-      display: block;
-      font-family:  ($font-family,1);
-      display: flex;
-      clear: both;
-      font-size: 0.65em;
-      color: ($colores,15);
-      padding-bottom: 0%;
-      text-decoration: none;
-      background-color: ($colores,10);
-      flex-wrap: wrap;
-  }
-
-  .boton-menu {
-      font-family: ($font-family,1) !important; 
-      background-color:($colores,16)!important;
-      filter: none!important;
-      border: 0em;
-      border-radius: 0em !important;
-      font-size: 0.7rem!important;
-  }
-
-  .dropdown{
-      font-family: ($font-family,1) !important; 
-      background-color: ($colores,4)!important;
-      filter: none!important;
-      border-radius: 0em !important;
-      font-size: 0.7rem!important;
-      margin-top: 10%!important;
-  }
-}
-}
-
-///MEDIA QUERI////MEDIA QUERI////MEDIA QUERI///
-
-  @mixin mobile {
-    body {
-      background-color: #ffffff; 
-    }
-
-    #grid-contenedor-contacto{
+    //ESTILOS//
+    #grid-contenedor{
         border: 2px solid rgb(255, 255, 255);
-        margin-top: 2.5rem;
-        margin-bottom: 1rem;
-        display: flex;
-        flex-direction: column;
+        margin-top: 4rem;
+        margin-bottom: 0rem;
+        display: grid; 
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+        "formularioo menuu"
+        "formularioo menuu"
+        "mapa menuu"       
     }
 
+    /* FORMULARIO */
 
-    .barbie-contacto{
-        border: 2px solid rgb(255, 255, 255);
-        margin-top: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-
-    .size-barbie-contacto{
-        width: 75%;
-    }
-
-    .caja-botones{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        right: 10%;
-        left: 10%;
-        top: 15%;
-        align-items: center;
-    }
-    
-    .boton-menu, .dropdown{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+    h1.tittle-pages{
         font-family:'aAbstractGroovy', cursive;
-        width: 8rem;
-        height: 3.5rem;
-        background-color:#ffe3f0 ;
-        filter: drop-shadow(5px 3px 4px #f8c3dc);
-        border: 1px solid #ffe3f0;
-        border-radius: 80px;
-        font-size: 0.8rem;
-        padding-right: 15%;
-        padding-left: 15%;
-        margin-top: 16%;
-    }
-    
-    .dropdown{
-        z-index: 1;
     }
 
-    .boton-menu:hover{
-        background-color: white;
-    }
-
-
-    /*MAPA*/
-    #mapa {
-        grid-area: mapa;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 70%;
-        justify-self: center;
-        margin-top: 5%;
-        margin-bottom: 3%;
-    }
-
-    .mapa {
-        width: 100%;
-    }
-
-    iframe{
-        border-radius: 1.8em;
-    }
-
-#grid-menu-desplegable-page-contacto{
- display: none;
-}
-}
-
-
-@mixin tablet {
-
-  body {
-    background-color: #ffffff; /* Yellow */
-}
-
-#encabezado-mobile, #navbar-mobile{
-    display: none;
-}
-
-.carrito-mobile, .instagram-mobile, .facebook-mobile{
-    display: none;
-}
-
-#encabezado-mobile, #navbar-mobile{
-    display: none;
-}
-
-.caja-botones{
-    top: 500%;
-    right: 100%;
-    left: 50%;
-}
-
-.boton-menu, .dropdown{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-family:'aAbstractGroovy', cursive;
-    width: 7rem;
-    height: 1rem;
-    background-color:#ffe3f0 ;
-    filter: drop-shadow(5px 3px 4px #f8c3dc);
-    border: 1px solid #ffe3f0;
-    border-radius: 80px;
-    font-size: 0.7rem;
-    margin-top: 1.5rem;
-    margin-right: 2rem;
-    margin-left: 0rem;
-    margin-bottom: 1.5rem;
-    padding-top: 1.7rem;
-    padding-bottom: 1.5rem;
-    padding-right: 1.8rem;
-    padding-left: 1.8rem;  
-}
-
-
-#grid-menu-desplegable-page-contacto{
-    grid-area: menuu;
-    font-family: 'Times New Roman', Times, serif;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 37%;
-    width: 60%;
-    flex-wrap: wrap;
-    top: 0%;
-    box-shadow: none;
-    border-bottom-left-radius: 1.8em;
-}
-
-form{
-    z-index: -1;
-}
-
-}
-
-
-@mixin desktop {
-
-    body {
-    background-color: #ffffff; /* Red */
-    }
-
-    .tamaño-imagen-header-mobile{
-        display: none;
-    }
-    #encabezado-mobile, #navbar-mobile{
-        display: none;
-    }
-
-    
-    #grid-menu-desplegable-page-contacto{
-        grid-area: menuu;
-        font-family: 'Times New Roman', Times, serif;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 37%;
-        width: 60%;
-        flex-wrap: wrap;
-        top: 0%;
-        box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
-        border-bottom-left-radius: 1.8em;
-    }
-
-    /*MAPA*/
-    #mapa {
-        grid-area: mapa;
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 70%;
-        justify-self: center;
-        margin-top: 5%;
-        margin-bottom: 3%;
-    }
-
-    .mapa {
-        width: 100%;
-    }
-
-    iframe{
-        border-radius: 1.8em;
-    }
-
-    .dropdown-item {
-        font-size: 0.7em;
-     
-    }
-
-
-    /*FORMULARIO*//*FORMULARIO*/
-
-    h1 a{
-        font-size: 0.62em;
+    a.inicio-contacto{
+        font-size: 20px;
     }
     h1 span{
-        font-size: 0.85em;
+        font-size: 28px;
     }
-
-
+    img.logo-corazon-pag{
+        width: 9%;
+    }
+    
     #formularioo{
         grid-area: formularioo;
         display: flex;
@@ -640,7 +137,7 @@ form{
         flex-direction: column;
         justify-content: center;
         flex-wrap: wrap;
-        border: none;
+        border: 2px solid rgb(255, 255, 255);
     }
 
     .tittle-pages{
@@ -659,13 +156,12 @@ form{
         align-items: center;
         align-self: center;
         justify-content: center;
-        padding: 2.1em 2em;
+        padding: 3.1em 3.43em;
         background-image: url(../imagenes/fondodestellos.png);
         box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
         text-align: center;
         border-radius: 1.87em;
-        width: 18em;
-        height: 29em;
+        width: 90%;
         position: relative;
     }
 
@@ -678,195 +174,205 @@ form{
 
     label{
         margin-bottom: 0.93em;
-        font-size: 0.75em;
+        font-size: 0.81em;
         font-family:'aAbstractGroovy', cursive;
         border-radius: 10px;
     }
 
     input, textarea{
-        padding: 0.9em 1.5em;
+        width: 100%;
+        height: 5%;
+        padding: 0.93em 1.56em;
         border-radius: 1.5em;
-        margin-bottom: 1em;
+        margin-bottom: 1.25em;
         background-color: #fce7f1;
         border: 2px solid #fce7f1;
         outline: none;
-        font-size: 0.7em;
+        font-size: 0.8em;
         text-align: center;
     }
 
     .btn{
-        font-size: 0.8em;
+        font-size: 1em;
         font-family:'aAbstractGroovy', cursive;
         background-color: white;
-        border-radius: 1.5em;
+        border-radius: 1.8em;
         box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
-        width: 40%;
-        height: 20%;
+        width: 50%;
     }
-  }
+
+    .btn:hover{
+        background-color: #ffe3f0;  
+    }
+
+
+    /*MENU DESPLEGABLE*/
+    #grid-menu-desplegable-page-contacto{
+        grid-area: menuu;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 37%;
+        width: 60%;
+        flex-wrap: wrap;
+        top: 0%;
+        box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
+        border-bottom-left-radius: 1.8em;
+    }
+
+    section{
+    #mapa{
+        iframe .mapa {}
+    }
+    }//<section>//
+}//grid-contenedor-contacto//
+
+
+.btn{
+    &:hover {
+    background-color: #ffe3f0;  
+}
+}
+
+
+/*MENU DESPLEGABLE*/
+#grid-menu-desplegable-page-contacto{
+    grid-area: menuu;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 37%;
+    width: 60%;
+    flex-wrap: wrap;
+    top: 0%;
+    box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
+    border-bottom-left-radius: 1.8em;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 456px) {
+    /*MENU DESPLEGABLE*/
+    #grid-menu-desplegable-page-contacto{
+        display: none;
+    }
+
+    .caja-botones, .barbie-contacto{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 456px) {
+
+
+    #grid-contenedor-contacto{
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+    ul .barbie-contacto{
+        border: 2px solid rgb(255, 255, 255);
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    img .size-barbie-contacto{
+        width: 75%;
+    }
+
+    .caja-botones{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10%;
+        left: 10%;
+        top: 15%;
+        align-items: center;
+    }
+    
+    .boton-menu, .dropdown{
+       display: none;
+    }
+    
+    .dropdown{
+        z-index: 1;
+    }
+
+    .boton-menu{
+        &:hover {
+        background-color: white;
+    }
+    }
+
+
+    /*MAPA*/
+    #mapa {
+        grid-area: mapa;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    iframe{
+        border-radius: 1.8em;
+    }
+
+
+/* contacto.html *//* contacto.html *//* contacto.html */
+/* MOBILE Styles *//* MOBILE Styles *//* MOBILE Styles */
+@media only screen and (min-width: 320px) and (max-width: 456px) {
+
+    /*MAPA*/
+    #mapa {
+        grid-area: mapa;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-self: center;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 0%;
+    }
+
+    .mapa {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe{
+        border-radius: 1.8em;
+    }  
+    }
+
+    #grid-menu-desplegable-page-contacto{
+       display: none;
+    }
+
+
 
 
     
-  @mixin pantalla-grande {
-
-    body {
-      background-color: #ffffff; /* Red */
-      }        
-
-  .caja-botonesS{
-      border: 1px solid rgb(255, 255, 255);
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);  
-  }
-
-  .boton-menu, .dropdown{
-      width: 5rem;
-      height: 10rem;
-      font-size: 0.6rem;
-      margin-top: 1rem;
-      margin-right: 0rem;
-      margin-left: 0rem;
-      margin-bottom: 1rem;
-      padding-top: 0.5rem;
-      padding-bottom: 0.3rem;
-      padding-right: 0.6rem;
-      padding-left: 0.6rem;  
-  }
-
-  .dropdown{
-      z-index: 1;    
-  }
-
-  #grid-contenedor-contacto{
-      border: 2px solid rgb(255, 255, 255);
-      margin-top: 2.5rem;
-      margin-bottom: 0rem;
-      display: grid; 
-      grid-template-columns: 2fr 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-      "formularioo menuu"
-      "formularioo menuu"
-      "mapa menuu"       
-  }
-
-  /* FORMULARIO */
-
-  h1{
-      font-family:'aAbstractGroovy', cursive;
-  }
-
-  h1 a{
-      font-size: 30px;
-  }
-  h1 span{
-      font-size: 40px;
-  }
-  .logo-corazon-pag{
-      width: 10%;
-  }
-  
-  form{
-      
-      text-align: center;
-      border-radius: 1.89em;
-      width: 31em;
-      height: auto;
-      
-  }
-
-  label{
-      font-size: 1.2em;
-   
-  }
-
-  input, textarea{
-      height: 7%;
-      font-size: 1.2em;
-  }
-
-  .btn{
-      font-size: 1.3em;
-  }
-
-  .btn:hover{
-      background-color: #ffe3f0;  
-  }
-
-  /*MENU DESPLEGABLE*/
-  #grid-menu-desplegable-page-contacto{
-      grid-area: menuu;
-      font-family: 'Times New Roman', Times, serif;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      left: 37%;
-      width: 60%;
-      flex-wrap: wrap;
-      top: 0%;
-      box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
-      border-bottom-left-radius: 1.8em;
-  } 
+    
 
 
-  .caja-botones{
-      top: 20%;
+     
 
-  }
-  
-  .boton-menu, .dropdown{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-family:'aAbstractGroovy', cursive;
-      width: 10.25rem;
-      height: 3.7rem;
-      background-color:#ffe3f0 ;
-      filter: drop-shadow(5px 3px 4px #f8c3dc);
-      border: 1px solid #ffe3f0;
-      border-radius: 80px;
-      font-size: 1.2rem;
-      margin-top: 1.5rem;
-      margin-right: 0rem;
-      margin-left: 0rem;
-      margin-bottom: 1.5rem;
-      padding-top: 1.7rem;
-      padding-bottom: 1.5rem;
-      padding-right: 1.8rem;
-      padding-left: 1.8rem;  
-  }
-  
-  .dropdown{
-      z-index: 1;   
-  }
 
-  .dropdown-menu{
-      padding-top: 18%;
-      padding-bottom: 5%;
-      margin-bottom: 10%;
-      color: #1b191a;
-      border-color: rgb(255, 255, 255);
-      background-color: rgb(255, 255, 255);
-      border-radius: 10%;
-      flex-wrap: wrap;
-      filter: none;    
-  }
-  
-  .dropdown-item {
-      display: block;
-      display: flex;
-      width: auto;
-      clear: both;
-      font-size: 1em;
-      color: rgb(0, 0, 0);
-      padding-bottom: 0%;
-      padding-left: 3%;
-      text-decoration: none;
-      flex-wrap: wrap;
-  }
-}
-  
-  
+
+

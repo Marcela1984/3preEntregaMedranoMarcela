@@ -8,7 +8,7 @@ footer{
     #texto-footer{
         display: flex;
         justify-content: space-between;
-        font-family: nth($font-family, 1);
+        font-family: nth($font, 3);
         text-align: center;
         margin-bottom: 0.5%;
         margin-top: 0%;
@@ -43,7 +43,7 @@ footer{
         .link-footer{
             
             box-shadow: -5px -5px 10px 0px nth($colores,3);
-            font-family: nth($font-family, 1);
+            font-family: nth($font, 3);
             padding-top: 1%;
             padding-bottom: 0%;
             margin-bottom: 0%;
@@ -147,7 +147,7 @@ footer{
             }
             
                 .link-footer{
-                    box-shadow: -5px -5px 10px 0px rgba(250, 164, 207, 0.5);
+                    box-shadow: -5px -5px 10px 0px nth($colores,3);
                     font-family: 'Times New Roman', Times, serif;
                     padding-top: 1%;
                     padding-bottom: 0%;
@@ -196,7 +196,7 @@ footer{
             }
         
                 .link-footer{
-                    box-shadow: -5px -5px 10px 0px rgba(250, 164, 207, 0.5);
+                    box-shadow: -5px -5px 10px 0px nth($colores,3);
                     font-family: 'Times New Roman', Times, serif;
                     padding-top: 1%;
                     padding-bottom: 0%;

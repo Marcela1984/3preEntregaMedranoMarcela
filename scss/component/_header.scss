@@ -1,102 +1,615 @@
-@import "../base/listas";
 @import "../base/mixin";
+@import "../base/listas";
 
 
 
 
-        #encabezado{
-        background-color: rgba(0, 0, 0, 0.8);
-        display: flex;
-        position: relative;
-        justify-content: center;
-        padding-bottom: 0.5rem;
-        height: 2.5rem;
-        flex-wrap: wrap; 
-        position: fixed;
-        width: 100%;
-        top: 0%;
-        z-index: 2;
-        font-family: nth($font-family, 1);
-        div{
-    .fontencabezado{
-        color:nth($colores,1);
-        font-size: 0.87em;
+
+
+    #encabezado-index{
+    background-color: nth($colores, 19);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+    flex-wrap: wrap; 
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 2;
+    font-family:nth($font, 3);     
+        .fontencabezado{
+        color:nth($colores, 1);
         flex-wrap: wrap;
         position: absolute;
-        top: 20%;
         left: 50%;
         transform: translate(-50%, -20%);
         text-align: center;
-            }
-            p{
-                //
-            }
+        p{}
         }
-        div{
-            #caja-principal-encabezado
-            div{
-                #caja-principal-encabezado
-                div{
-                    #cajitas-encabezado1{
-                        position: absolute;
-                        top: 60%;
-                        left: 1%;
-                        transform: translateY(-60%);
-                        flex-wrap: wrap;
-                    }
-                    a{
-                        img{
-                            .tamaño-imagen-header{
-                                width: 90px; 
-                            }
-                        }
-                    }
+        
+    #caja-principal-encabezado-index{
+      .cajitas-encabezado1{
+        position: absolute;
+        top: 60%;
+        left: 1%;
+        transform: translateY(-60%);
+        flex-wrap: wrap;
+        a{
+          .tamaño-imagen-header{
+      
+          }
+        }
+      }
+    
+      .cajitas-encabezado2{
+        position: absolute;
+        top: 60%;
+        right: 1%;
+        transform: translateY(-60%);
+        flex-wrap: wrap;
+        .carrito{
+       
+        }
+        .instagram {
+         
+      }
+      .facebook{
+       
+      }  
+      }
+    }
+    }
+    /*media queri mobile*/
+    @include mobile {
+        .fontencabezado{
+            display: none;
+        }  
+      }
+      @include mobile {
+        #encabezado-index{
+          display: none;
+        }
+        #caja-principal-encabezado-index{
+            display: none;
+          }
+        }
+
+        /*media queri tablet*/
+        @include tablet {
+            #navbar-mobile-index{
+                display: none;
+            }
+
+            .tamaño-imagen-header-mobile{
+                display: none;
+            }
+
+            header #encabezado-mobile-index, header .fontencabezado-mobile{
+                display: none;
+            }
+
+
+            #encabezado-index{
+                padding-bottom: 0.5rem;
+                height: 2.1rem;
+                top: 0%;
+                z-index: 2;
+            }
+            
+            .fontencabezado{
+                padding-top: 1%;
+                font-size: 2em;padding-bottom: 1%;
+            }
+            
+            .tamaño-imagen-header{
+                width: 75px;
+                padding-bottom: 2%;    
+            }
+            .carrito {
+                width: 20px;
+                padding-bottom: 2%; 
+            }
+            .instagram {
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+            .facebook{
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+ 
+          }
+
+          @include desktop {
+            #navbar-mobile-index{
+                display: none;
+            }
+
+            .tamaño-imagen-header-mobile{
+                display: none;
+            }
+
+            header #encabezado-mobile-index, header .fontencabezado-mobile{
+                display: none;
+            }
+            #encabezado-index{
+                padding-bottom: 0.5rem;
+                height: 2.3rem;
+                z-index: 2;
+            }
+            
+            .fontencabezado{
+                padding-top: 1%;
+                font-size: 1em;
+                padding-bottom: 1%;
+            }
+            
+            .tamaño-imagen-header{
+                width: 75px;
+                padding-bottom: 2%;    
+            }
+            .carrito {
+                width: 20px;
+                padding-bottom: 2%; 
+            }
+            .instagram {
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+            .facebook{
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+ 
+          }
+
+          @include pantalla-grande {
+            #navbar-mobile-index{
+                display: none;
+            }
+
+            .tamaño-imagen-header-mobile{
+                display: none;
+            }
+
+            header #encabezado-mobile-index, header .fontencabezado-mobile{
+                display: none;
+            }
+            #encabezado-index{
+                padding-bottom: 0.5rem;
+                height: 3rem;
+                top: 0%;
+                z-index: 2;
+            }
+            
+            .fontencabezado{
+                top: 10%;
+                padding-top: 3%;
+                font-size: 3em;
+                padding-bottom: 1%;
+            }
+            
+            .tamaño-imagen-header{
+                width: 120px;
+                padding-bottom: 2%;    
+            }
+            .carrito {
+                width: 40px;
+                padding-bottom: 2%; 
+            }
+            .instagram {
+                width: 30px;
+                padding-bottom: 2%; 
+            }
+            .facebook{
+                width: 30px;
+                padding-bottom: 2%; 
+            }
+ 
+          }
+
+        //header contacto// //header contacto// //header contacto//
+         //header contacto// //header contacto// //header contacto//
+        #encabezado-contacto{
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            position: relative;
+            justify-content: center;
+            padding-bottom: 0.5rem;
+            height: 2.5rem;
+            flex-wrap: wrap; 
+            position: fixed;
+            width: 100%;
+            top: 0%;
+            z-index: 2;
+            font-family:'Times New Roman', Times, serif;
+            @mixin mobile {
+                  display: none;
+                }
+                .fontencabezado{
+                color:nth($colores, 1);
+                font-size: 0.87em;
+                flex-wrap: wrap;
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -20%);
+                text-align: center;
+                p{}
+            }
+            #caja-principal-encabezado{
+              .cajitas-encabezado1{
+                position: absolute;
+                top: 60%;
+                left: 1%;
+                transform: translateY(-60%);
+                flex-wrap: wrap;
+                a{
+                  .tamaño-imagen-header{
+                   
+                  }
+                }
+              }
+              .cajitas-encabezado2{
+                position: absolute;
+                top: 60%;
+                right: 1%;
+                transform: translateY(-60%);
+                flex-wrap: wrap;
+                .carrito{
+                
+                }
+                .instagram {
+                 
+              }
+              .facebook{
+                  
+              }  
+              }
+            }
+            }
+         /*media queri mobile*/
+    @include mobile {
+        .fontencabezado{
+            display: none;
+        }  
+      }
+      @include mobile {
+        #encabezado-contacto{
+          display: none;
+        }
+        #caja-principal-encabezado{
+            display: none;
+          }
+        }
+
+        /*media queri tablet*/
+        @include tablet {
+            #encabezado-mobile, #navbar-mobile{
+                display: none;
+            }
+
+            .tamaño-imagen-header-mobile{
+                display: none;
+            }
+
+            .fontencabezado-mobile{
+                display: none;
+            }
+
+            #encabezado-contacto{
+                padding-bottom: 0.5rem;
+                height: 2.1rem;
+                top: 0%;
+                z-index: 2;
+            }
+            
+            .fontencabezado{
+                padding-top: 1%;
+                font-size: 0.8em;
+            }
+            
+            .tamaño-imagen-header{
+                width: 75px;
+                padding-bottom: 2%;    
+            }
+            .carrito {
+                width: 20px;
+                padding-bottom: 2%; 
+            }
+            .instagram {
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+            .facebook{
+                width: 18px;
+                padding-bottom: 2%; 
+            }
+ 
+          }
+          
+        /*media queri desktop*/
+        @include desktop {
+                #encabezado-mobile, #navbar-mobile{
+                    display: none;
+                }
+    
+                .tamaño-imagen-header-mobile{
+                    display: none;
+                }
+    
+                .fontencabezado-mobile{
+                    display: none;
                 }
             }
-            div{
-                #cajitas-encabezado2{
+        
+            @include pantalla-grande {
+                #encabezado-mobile, #navbar-mobile{
+                    display: none;
+                }
+    
+                .tamaño-imagen-header-mobile{
+                    display: none;
+                }
+    
+                .fontencabezado-mobile{
+                    display: none;
+                }
+                #encabezado-contacto{
+                    padding-bottom: 0.5rem;
+                    height: 3rem;
+                    top: 0%;
+                    z-index: 2;
+                }
+                
+                .fontencabezado{
+                    padding-top: 0.5%;
+                    font-size: 1.5em;
+                    padding-bottom: 1%;
+                }
+                
+                .tamaño-imagen-header{
+                    width: 120px;
+                    padding-bottom: 2%;    
+                }
+                .carrito {
+                    width: 40px;
+                    padding-bottom: 2%; 
+                }
+                .instagram {
+                    width: 30px;
+                    padding-bottom: 2%; 
+                }
+                .facebook{
+                    width: 30px;
+                    padding-bottom: 2%; 
+                }
+     
+              }
+            
+        /*header ANGEL-FAIRY-BUTTERFLY-PRODUCTOS*//*header ANGEL-FAIRY-BUTTERFLY-PRODUCTOS*/
+        /*header ANGEL-FAIRY-BUTTERFLY-PRODUCTOS*//*header ANGEL-FAIRY-BUTTERFLY-PRODUCTOS*/
+
+            #encabezado{
+                background-color: rgba(0, 0, 0, 0.8);
+                display: flex;
+                position: relative;
+                justify-content: center;
+                padding-bottom: 0.5rem;
+                height: 2.5rem;
+                flex-wrap: wrap; 
+                position: fixed;
+                width: 100%;
+                top: 0%;
+                z-index: 2;
+                font-family:nth($font, 3);     
+                    .fontencabezado{
+                    color:nth($colores, 1);
+                    flex-wrap: wrap;
+                    position: absolute;
+                    top: 20%;
+                    left: 50%;
+                    transform: translate(-50%, -20%);
+                    text-align: center;
+                    p{}
+                    }
+                    
+                #caja-principal-encabezado{
+                  .cajitas-encabezado1{
+                    position: absolute;
+                    top: 60%;
+                    left: 1%;
+                    transform: translateY(-60%);
+                    flex-wrap: wrap;
+                    a{
+                      .tamaño-imagen-header{}
+                        
+                    }
+                  }
+                
+                  .cajitas-encabezado2{
                     position: absolute;
                     top: 60%;
                     right: 1%;
                     transform: translateY(-60%);
                     flex-wrap: wrap;
-                }
-                img{
                     .carrito{
-                        width: 30px;  
+                      width: 30px;  
                     }
-                }
-                a{
-                    img{
-                        .instagram {
-                            width: 25px;
-                        }
-                    }
-                }
-                a{
-                    img{
-                        .facebook{
-                            width: 25px;
-                        }
+                    .instagram {}
 
-                    }
+                    .facebook{}
+                  }
                 }
             }
-        
+
+                @include mobile{
+                    #encabezado{
+                        display: none;
+                    }
+                }
+
             
-        }
-    }
+                @include tablet {
+
+                    header #encabezado-mobile, header .fontencabezado-mobile{
+                        display: none;
+                    }
+                    #navbar-mobile{
+                        display: none;
+                    }
+        
+                    .tamaño-imagen-header-mobile{
+                        display: none;
+                    }
+        
+                    .fontencabezado-mobile{
+                        display: none;
+                    }
+                    #encabezado{
+                        padding-bottom: 0.5rem;
+                        height: 2.1rem;
+                        top: 0%;
+                        z-index: 2;
+                    }
+                    
+                    .fontencabezado{
+                        padding-top: 2%;
+                        padding-bottom: 1%;
+                        font-size: 0.8em;
+                    }
+                    
+                    .tamaño-imagen-header{
+                        width: 75px;
+                        padding-bottom: 2%;    
+                    }
+                    .carrito {
+                        width: 20px;
+                        padding-bottom: 2%; 
+                    }
+                    .instagram {
+                        width: 18px;
+                        padding-bottom: 2%; 
+                    }
+                    .facebook{
+                        width: 18px;
+                        padding-bottom: 2%; 
+                    }
+         
+                  }
+
+                  @include desktop {
+
+                    header #encabezado-mobile, header .fontencabezado-mobile{
+                        display: none;
+                    }
+
+                    #navbar-mobile{
+                        display: none;
+                    }
+        
+                    .tamaño-imagen-header-mobile{
+                        display: none;
+                    }
+        
+                    .fontencabezado-mobile{
+                        display: none;
+                    }
+                    #encabezado{
+                        padding-bottom: 0.5rem;
+                        height: 2.3rem;
+                        top: 0%;
+                        z-index: 2;
+                    }
+                    
+                    .fontencabezado{
+                        padding-top: 1%;
+                        font-size: 1em;
+                    }
+                    
+                    .tamaño-imagen-header{
+                        width: 75px;
+                        padding-bottom: 2%;    
+                    }
+                    .carrito {
+                        width: 20px;
+                        padding-bottom: 2%; 
+                    }
+                    .instagram {
+                        width: 18px;
+                        padding-bottom: 2%; 
+                    }
+                    .facebook{
+                        width: 18px;
+                        padding-bottom: 2%; 
+                    }
+         
+                  }
+
+                  @include pantalla-grande {
+
+                    header #encabezado-mobile, header .fontencabezado-mobile{
+                        display: none;
+                    }
+                    
+                    
+                    
+                    #navbar-mobile{
+                        display: none;
+                    }
+        
+                    .tamaño-imagen-header-mobile{
+                        display: none;
+                    }
+        
+                    .fontencabezado-mobile{
+                        display: none;
+                    }
+                    #encabezado{
+                        padding-bottom: 0.5rem;
+                        height: 3rem;
+                        top: 0%;
+                        z-index: 2;
+                    }
+                    
+                    .fontencabezado{
+                        padding-top: 0.5%;
+                        font-size: 1.5em;
+                        padding-bottom: 1%;
+                    }
+                    
+                    .tamaño-imagen-header{
+                        width: 120px;
+                        padding-bottom: 2%;    
+                    }
+                    .carrito {
+                        width: 40px;
+                        padding-bottom: 2%; 
+                    }
+                    .instagram {
+                        width: 30px;
+                        padding-bottom: 2%; 
+                    }
+                    .facebook{
+                        width: 30px;
+                        padding-bottom: 2%; 
+                    }
+         
+                  }
 
 
 
-    @media screen and (max-width: 456px) {
-        #encabezado{
-            display: none;
-        }
-        .fontencabezado,.cajitas-encabezado1, .cajitas-encabezado2, .tamaño-imagen-header, .carrito, .instagram, .facebook {
-            display: none;
-        }
 
-    }
+
+
+
+
+
+                
+
+
+           
+        
     
-
+   

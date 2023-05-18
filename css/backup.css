@@ -1526,7 +1526,7 @@ a{
 /* Tablet Styles *//* Tablet Styles *//* Tablet Styles */
 @media only screen and (min-width: 457px) and (max-width: 960px) {
         body {
-            background-color: #ffffff; /* Yellow */
+            background-color: #ffffff; 
         }
  
         #encabezado-mobile, #navbar-mobile{

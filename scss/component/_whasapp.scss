@@ -12,14 +12,13 @@
     margin-bottom: 1%;
     flex-wrap: wrap; 
     a{
-        .icono{
-            width: 50px;
-        }
+        .icono{}
+        
     }
 
     @include mobile{
         .icono{
-            width: 40px;
+            width: 35px;
         }
       }
     
@@ -28,6 +27,19 @@
             width: 45px;
         }
       }
+
+    @include desktop{
+        .icono{
+            width: 50px;
+        }
+    }
+    
+    @include pantalla-grande{
+        .icono{
+            width: 80px;
+        }
+    }
+
       
 }
 
@@ -35,32 +47,3 @@
 
 
   
-
-/*#whatssap{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 1;
-    opacity: .8;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    flex-wrap: wrap; 
-    a{
-        .icono{
-            width: 50px;
-        }
-    }
-
-    @media screen and (min-width: 320px) and (max-width: 456px) {
-        .icono{
-            width: 35px;
-        } 
-    }
-    @media screen and (min-width: 457px) and (max-width: 960px) {
-    .icono{
-        width: 40px;
-    }
-    
-    }
-    
-}*/

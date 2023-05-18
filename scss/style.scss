@@ -16,13 +16,14 @@ a{
     text-decoration: none;
 }
 
+
+
+
 @font-face {
-    font-family: "aAbstractGroovy";
+    font-family: "aAbstractGroovy"; 
     src: url("../font/aAbstractGroovy.otf");
     src: url("../font/aAbstractGroovy.ttf");
 }
-
-
 
 @import "base/mixin";
 @import "base/listas";
@@ -30,8 +31,11 @@ a{
 @import "component/whasapp";
 @import "component/header-mobile";
 @import "component/header";
-@import "component/main-index";
 @import "component/contacto";
+@import "component/seccion-centro-index";
+@import "component/galeria-index";
+
+
 
 
 

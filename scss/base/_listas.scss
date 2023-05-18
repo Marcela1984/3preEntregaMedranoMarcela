@@ -1,3 +1,10 @@
+
+$font:
+
+'aAbstractGroovy',
+'Raleway Dots',
+'Times New Roman', Times, serif;
+
 $colores:
 rgb(243, 197, 222), //1//
 rgba(245, 8, 138, 0.5), //2//
@@ -5,8 +12,8 @@ rgba(247, 124, 183, 0.5), //3//
 #ffffff, //4//
 rgba(235, 47, 141, 0.1), //5//
 rgba(247, 225, 241, 0.8), //6//
-#f7acd7, //7//
-rgb(248, 160, 209), //8//
+#f3c8e0, //7//
+rgb(255, 219, 238), //8//
 rgba(250, 164, 207, 0.5), //9//
 rgba(248, 83, 160, 0.8), //10//
 rgba(250, 164, 207, 0.9), //11//
@@ -15,11 +22,11 @@ rgba(187, 44, 44, 0.918), //13//
 rgba(209, 205, 207, 0.5), //14//
 black, ///15//
 rgba(255, 255, 255, 0.8), //16//
-rgba(0, 0, 0, 0); //17//
+rgba(0, 0, 0, 0), //17//
+#e43394, //18//
+rgba(0, 0, 0, 0.8); //19//
 
-$font-family:
-'Times New Roman', Times, serif,
-'aAbstractGroovy', cursive;
+
 
 $transform:
 translate(-50%, -20%),
