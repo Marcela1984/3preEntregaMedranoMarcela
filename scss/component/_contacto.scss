@@ -5,7 +5,7 @@
 
 /*<!--MENU DESPLEGABLE-->*/
 #grid-contenedor-contacto{
-    border: 2px solid rgb(255, 255, 255);
+    border: none;
     margin-top: 2.5rem;
     margin-bottom: 0rem;
     display: grid; 
@@ -19,41 +19,48 @@
     #grid-menu-desplegable-page-contacto{
         .seccion-menu{ 
             #lista-contacto{
-                ul .barbie-contacto{
-                    img .size-barbie-contacto {}
+                ul.barbie-contacto{
+                    img.size-barbie-contacto {}
                 }//</ul>//
-                div .caja-botones{
-                    ul .boton-menu{
-                    a{}
-                }//</ul>//         
-                    ul .dropdown{
-                        a .btn-secondary {} 
-                            div .dropdown-menu{
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                p{
-                                    a .dropdown-item{}
-                                }
-                                
-                            }//</div>//
-                        }//</ul>dropdown//   
-                    ul.boton-menu{
-                    a{}
-                    }//</ul>//
-                }//</div>caja-botones//
+                .caja-botones{
+                    display: flex;
+                    flex-direction: column;
+                    align-self: flex-end;
+                    justify-content: center;
+                    position: absolute;
+                    bottom: 5%; 
+                    ul{
+                            li.boton-menu{
+                            a{}
+                            }//</li>//       
+                            li#dropdown{
+                                a.btn-secondary.dropdown-toggle{}
+                                    ul.dropdown-menu{
+                                        li{
+                                        a{}
+                                        }
+                                        li{
+                                        a{}
+                                        }
+                                        li{
+                                        a{}
+                                        }
+                                        li{
+                                        a{}
+                                        }
+                                        li{
+                                        a{}
+                                        }
+                                        li{
+                                        a{}
+                                        }  
+                                    }//</ul>//
+                                }//</li>//    
+                            li.boton-menu{
+                            a{}
+                            }
+                        }//</ul>//
+                }//caja-botones-index//
             }//</div>//         
         }//</div>//
     }//</section>*//
@@ -100,9 +107,9 @@
     }//</section>formularioo//
 }
 //////////////////////////////////////////////
-#grid-contenedor{
-    border: 2px solid rgb(255, 255, 255);
-    margin-top: 2.5rem;
+#grid-contenedor-contacto{
+    border: none;
+    margin-top: 2rem;
     margin-bottom: 0rem;
     display: grid; 
     grid-template-columns: 2fr 1fr;
@@ -115,31 +122,31 @@
 
 /* FORMULARIO */
 
-h1{
+h1.tittle-pages{
     font-family:'aAbstractGroovy', cursive;
 }
 
-h1 a{
+a.inicio-contacto{
     font-size: 20px;
 }
-h1 span{
+h1 nav span{
     font-size: 30px;
 }
-.logo-corazon-pag{
+img.logo-corazon-pag{
     width: 8%;
 }
 
-#formularioo{
+section#formularioo{
     grid-area: formularioo;
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    border: 2px solid rgb(255, 255, 255);
+    border: none;
 }
 
-.tittle-pages{
+h1.tittle-pages{
     display: flex;
     justify-content: center;
     position: relative;
@@ -160,7 +167,7 @@ form{
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
     text-align: center;
     border-radius: 1.87em;
-    width: 21.25em;
+    //width: 20rem;//
     position: relative;
 }
 
@@ -187,9 +194,10 @@ input, textarea{
     background-color: #fce7f1;
     border: 2px solid #fce7f1;
     outline: none;
-    font-size: 0.8em;
     text-align: center;
 }
+
+
 
 .btn{
     font-size: 1em;
@@ -198,12 +206,69 @@ input, textarea{
     border-radius: 1.8em;
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
     width: 50%;
+    background-color: #ffe3f0; 
+    &:hover{
+        background-color: #ffe3f0;  
+    }
+    
 }
 
-.btn:hover{
-    background-color: #ffe3f0;  
+.boton-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:nth($font, 1);
+    width: 6.25rem;
+    height: 0.7rem;
+    background-color:nth($colores, 1);
+    filter: drop-shadow(5px 3px 4px nth($colores, 8));
+    border: 1px solid nth($colores, 1);
+    border-radius: 80px;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    &:hover {
+        background-color: nth($colores, 4);
+      }
 }
 
+li#dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:nth($font, 1);
+    width: 6.25rem;
+    height: 0.7rem;
+    background-color:nth($colores, 1);
+    border: 1px solid nth($colores, 1);
+    border-radius: 80px;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+    &:hover {
+        background-color: nth($colores, 4);
+      } 
+    filter: drop-shadow(5px 3px -4px nth($colores, 8));  
+}
+
+a.btn-secondary.dropdown-toggle{
+    cursor: url(../imagenes/cursorr.png), auto;
+    filter: drop-shadow(5px 3px 4px nth($colores, 8));  
+}
 
 /*MENU DESPLEGABLE*/
 #grid-menu-desplegable-page-contacto{
@@ -223,18 +288,20 @@ input, textarea{
 
 @include mobile{
         /*MENU DESPLEGABLE*/
-        #grid-menu-desplegable-page{
+        section#grid-menu-desplegable-page-contacto{
             display: none;
         }
     
         div.caja-botones, .barbie-contacto{
             display: none;
         }
-    
+        #lista-contacto{
+            display: none;
+        } 
 }
 
 @include mobile{
-    #grid-contenedor{
+    #grid-contenedor-contacto{
         border: 2px solid rgb(255, 255, 255);
         margin-top: 2.5rem;
         margin-bottom: 1rem;
@@ -242,18 +309,19 @@ input, textarea{
         flex-direction: column;
     }
 
-
-    .barbie-contacto{
-        border: 2px solid rgb(255, 255, 255);
-        margin-top: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
+    .btn{
+        font-size: 0.5em;
+        font-family:'aAbstractGroovy', cursive;
+        background-color: white;
+        border-radius: 1.8em;
+        box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
+        width: 40%;
+        background-color: #fafafa; 
+        &:hover{
+            background-color: #ffe3f0;  
+        }
+        
     }
-
-    .size-barbie-contacto{
-        width: 75%;
-    }
-
     
     .dropdown{
         z-index: 1;
@@ -263,7 +331,30 @@ input, textarea{
         background-color: white;
     }
 
+    form{
+       
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            padding: 3.1em 3.43em;
+            margin-left: 5%;
+            margin-right: 5%;
+            background-image: url(../imagenes/fondodestellos.png);
+            box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+            text-align: center;
+            border-radius: 1.87em;
+            position: relative;
+    }
 
+    input{
+        font-size: 0.85em;
+    }
+    textarea{
+        font-size: 0.7em;
+    }
+    
     /*MAPA*/
     #mapa {
         grid-area: mapa;
@@ -284,8 +375,6 @@ input, textarea{
         border-radius: 1.8em;
     
 }
-
-
         /*MAPA*/
         #mapa {
             grid-area: mapa;
@@ -313,4 +402,824 @@ input, textarea{
         }
 
 }
+
+@include tablet{
+    .tamaño-imagen-header-mobile{
+        display: none;
+    }
+    #encabezado-mobile, #navbar-mobile{
+        display: none;
+    }
+
+    
+    section#grid-menu-desplegable-page-contacto{
+        grid-area: menuu;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: none;
+        position: none;
+        flex-wrap: wrap;
+        border-bottom-left-radius: none;
+        box-shadow: none;
+        
+    }
+
+     /*MAPA*/
+     #mapa {
+        grid-area: mapa;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    
+    iframe{
+        border-radius: 1.8em;
+    
+}
+        /*MAPA*/
+        #mapa {
+            grid-area: mapa;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            justify-self: center;
+            justify-self: center;
+            margin-top: 5%;
+            margin-bottom: 3%;
+        }
+
+        iframe.mapa{
+            border-radius: 1.8em;
+            width: 100%;
+            height: auto;
+            
+        }  
+        
+
+    /*FORMULARIO*//*FORMULARIO*/
+
+    h1 a{
+        font-size: 0.62em;
+    }
+    h1 span{
+        font-size: 0.85em;
+    }
+
+
+    #formularioo{
+        grid-area: formularioo;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .tittle-pages{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 2%;
+        
+    }
+
+    form{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding: 2.1em 2em;
+        background-image: url(../imagenes/fondodestellos.png);
+        box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+        text-align: center;
+        border-radius: 1.87em;
+        width: 18em;
+        height: 29em;
+        position: relative;
+        z-index: -2;
+    }
+
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    label{
+        margin-bottom: 0.93em;
+        font-size: 0.75em;
+        font-family:'aAbstractGroovy', cursive;
+        border-radius: 10px;
+    }
+
+    input, textarea{
+        padding: 0.9em 1.5em;
+        border-radius: 1.5em;
+        margin-bottom: 1em;
+        background-color: #fce7f1;
+        border: 2px solid #fce7f1;
+        outline: none;
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    .btn{
+        font-size: 0.8em;
+        font-family:'aAbstractGroovy', cursive;
+        background-color: white;
+        border-radius: 1.5em;
+        box-shadow: 0 0 20px rgba(240, 7, 123, 0.9);
+        width: 40%;
+        height: 20%;
+    }
+
+    .barbie-contacto{
+        
+           display: none; 
+    }
+
+    .size-barbie-contacto{
+        display: none;
+    }
+
+    div.caja-botones{
+        left: -35%;
+        border: 0.1px solid rgb(255, 255, 255);
+        top: 30%;
+        flex-direction: none;
+        position: relative;
+        flex-wrap: wrap;
+        box-shadow: none;
+        border-bottom-left-radius: none;
+        transform: translatey(10500%);
+    }
+
+    li.boton-menu, .dropdown{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family:'aAbstractGroovy', cursive;
+        width: 7rem;
+        height: 1rem;
+        background-color:#ffe3f0 ;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;  
+    }
+
+    .botones{
+        width: 100px;
+        height: 30px;
+        
+    }
+    
+    ul.dropdown-menu.show {
+        display: block;
+        font-size: 160%;
+        background-color: nth($colores, 16);
+        padding-top: 3%;
+        font-family:nth($font, 3); 
+        border: 1px solid nth($colores, 1);
+        z-index: 99;
+    }
+    
+    a.btn-secondary.dropdown-toggle{
+        font-family: nth($font, 1); 
+    }
+    
+    
+    ul.dropdown-menu.show {
+        --bs-dropdown-link-color: var(--bs-body-color);
+        --bs-dropdown-link-hover-color: #e43394;;
+        --bs-dropdown-link-hover-bg: #f5d0e4;
+        --bs-dropdown-link-active-color: #e43394;
+        --bs-dropdown-link-active-bg: nth($colores, 1);
+        --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+        --bs-dropdown-item-padding-x: 2rem;
+        --bs-dropdown-item-padding-y: 0.2rem;
+        --bs-dropdown-header-padding-x: 0rem;
+        --bs-dropdown-header-padding-y: 0rem;
+        z-index: 99!important; 
+    }
+    
+    li.boton-menu, .dropdown {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "aAbstractGroovy", cursive;
+        width: 7rem;
+        height: 1rem;
+        background-color: #ffe3f0;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+    }
+    
+    li#dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "aAbstractGroovy", cursive;
+        width: 7rem;
+        height: 1rem;
+        background-color: #ffe3f0;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+    }
+
+    }
+
+
+    @include desktop{
+
+        .tamaño-imagen-header-mobile{
+            display: none;
+        }
+        #encabezado-mobile, #navbar-mobile{
+            display: none;
+        }
+
+        
+        #grid-menu-desplegable-page-contacto{
+            grid-area: menuu;
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 37%;
+            width: 60%;
+            flex-wrap: wrap;
+            top: 0%;
+            box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
+            border-bottom-left-radius: 1.8em;
+        }
+
+        /*MAPA*/
+        #mapa {
+            grid-area: mapa;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 70%;
+            justify-self: center;
+            margin-top: 5%;
+            margin-bottom: 3%;
+        }
+
+        .mapa {
+            width: 100%;
+        }
+
+        iframe{
+            border-radius: 1.8em;
+        }
+
+        .dropdown-item {
+            font-size: 0.7em;
+         
+        }
+    
+
+        /*FORMULARIO*//*FORMULARIO*/
+
+        h1 a{
+            font-size: 0.62em;
+        }
+        h1 span{
+            font-size: 0.85em;
+        }
+
+
+        #formularioo{
+            grid-area: formularioo;
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap;
+            border: none;
+        }
+
+        h1.tittle-pages{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            flex-direction: column;
+            margin-top: 2%;
+            margin-left: 2%;
+            border: 2px solid rgb(255, 255, 255);
+        }
+
+        form{
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            align-items: center;
+            align-self: center;
+            justify-content: center;
+            padding: 2.1em 2em;
+            background-image: url(../imagenes/fondodestellos.png);
+            box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+            text-align: center;
+            border-radius: 1.87em;
+            width: 18em;
+            height: 29em;
+            position: relative;
+        }
+
+        .input-group{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+
+        label{
+            margin-bottom: 0.93em;
+            font-size: 0.75em;
+            font-family:'aAbstractGroovy', cursive;
+            border-radius: 10px;
+        }
+
+        input, textarea{
+            padding: 0.9em 1.5em;
+            border-radius: 1.5em;
+            margin-bottom: 1em;
+            background-color: #fce7f1;
+            border: 2px solid #fce7f1;
+            outline: none;
+            font-size: 0.7em;
+            text-align: center;
+        }
+
+        input.btn{
+            font-size: 0.8em;
+            font-family:'aAbstractGroovy', cursive;
+            background-color: white;
+            border-radius: 1.5em;
+            box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
+            width: 40%;
+            height: 20%;
+        }
+
+        ul.barbie-contacto{
+            flex-wrap: wrap; 
+            display: flex;
+            justify-content: end;
+            position: relative;
+            border: 1px solid black;
+            right: 10%;
+            transform:translateY(20%);
+        }
+        
+        img.size-barbie-contacto{
+            width: 57%;
+        }
+      
+        div.caja-botones{
+            left: 12%;
+            border: 0.1px solid rgb(255, 255, 255);
+            flex-direction: none;
+            position: relative;
+            flex-wrap: wrap;
+            box-shadow: none;
+            border-bottom-left-radius: none;
+            transform: translatey(-180%);
+        }
+    
+        li.boton-menu, .dropdown{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family:'aAbstractGroovy', cursive;
+            width: 7rem;
+            height: 1rem;
+            background-color:#ffe3f0 ;
+            filter: drop-shadow(5px 3px -4px #f8c3dc);
+            border: 1px solid #ffe3f0;
+            border-radius: 80px;
+            font-size: 0.7rem;
+            margin-top: 1.5rem;
+            margin-right: 2rem;
+            margin-left: 0rem;
+            margin-bottom: 1.5rem;
+            padding-top: 1.7rem;
+            padding-bottom: 1.5rem;
+            padding-right: 1.8rem;
+            padding-left: 1.8rem;  
+        }
+    
+        .botones{
+            width: 100px;
+            height: 30px;
+            
+        }
+        
+        ul.dropdown-menu.show {
+            display: block;
+           
+            background-color: nth($colores, 16);
+            padding-top: 3%;
+            font-family:nth($font, 3); 
+            border: 1px solid nth($colores, 1);
+            z-index: 99;
+            width: 150%;
+            height: auto;
+        }
+        
+        a.dropdown-item{
+            font-size: 120%;
+        }
+
+        a.btn-secondary.dropdown-toggle{
+            font-family: nth($font, 1); 
+        }
+        
+        
+        ul.dropdown-menu.show {
+            --bs-dropdown-link-color: var(--bs-body-color);
+            --bs-dropdown-link-hover-color: #e43394;;
+            --bs-dropdown-link-hover-bg: #f5d0e4;
+            --bs-dropdown-link-active-color: #e43394;
+            --bs-dropdown-link-active-bg: nth($colores, 1);
+            --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+            --bs-dropdown-item-padding-x: 2rem;
+            --bs-dropdown-item-padding-y: 0.2rem;
+            --bs-dropdown-header-padding-x: 0rem;
+            --bs-dropdown-header-padding-y: 0rem;
+            z-index: 99!important; 
+        }
+        
+        li.boton-menu, .dropdown {
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: "aAbstractGroovy", cursive;
+            width: 7rem;
+            height: 1rem;
+            background-color: #ffe3f0;
+            filter: drop-shadow(5px 3px -4px #f8c3dc);
+            border: 1px solid #ffe3f0;
+            border-radius: 80px;
+            font-size: 0.7rem;
+            margin-top: 1.5rem;
+            margin-right: 2rem;
+            margin-left: 0rem;
+            margin-bottom: 1.5rem;
+            padding-top: 1.7rem;
+            padding-bottom: 1.5rem;
+            padding-right: 1.8rem;
+            padding-left: 1.8rem;
+        }
+        
+        li#dropdown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: "aAbstractGroovy", cursive;
+            width: 7rem;
+            height: 1rem;
+            background-color: #ffe3f0;
+            filter: drop-shadow(5px 3px -4px #f8c3dc);
+            border: 1px solid #ffe3f0;
+            border-radius: 80px;
+            font-size: 0.7rem;
+            margin-top: 1.5rem;
+            margin-right: 2rem;
+            margin-left: 0rem;
+            margin-bottom: 1.5rem;
+            padding-top: 1.7rem;
+            padding-bottom: 1.5rem;
+            padding-right: 1.8rem;
+            padding-left: 1.8rem;
+        }
+
+    }
+        
+@include pantalla-grande{
+
+    .tamaño-imagen-header-mobile{
+        display: none;
+    }
+    #encabezado-mobile, #navbar-mobile{
+        display: none;
+    }
+
+    
+    #grid-menu-desplegable-page-contacto{
+        grid-area: menuu;
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 37%;
+        width: 60%;
+        flex-wrap: wrap;
+        top: 0%;
+        box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
+        border-bottom-left-radius: 1.8em;
+    }
+
+    /*MAPA*/
+    #mapa {
+        grid-area: mapa;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 70%;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 3%;
+    }
+
+    .mapa {
+        width: 100%;
+    }
+
+    iframe{
+        border-radius: 1.8em;
+    }
+
+    .dropdown-item {
+        font-size: 0.7em;
+     
+    }
+
+
+    /*FORMULARIO*//*FORMULARIO*/
+
+    h1 a{
+        font-size: 0.62em;
+    }
+    h1 span{
+        font-size: 0.85em;
+    }
+
+
+    #formularioo{
+        grid-area: formularioo;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    h1.tittle-pages{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: 2%;
+        margin-left: 2%;
+        border: 2px solid rgb(255, 255, 255);
+    }
+
+    form{
+        font-family: 'Times New Roman', Times, serif;
+        display: flex;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        padding: 2.1em 2em;
+        background-image: url(../imagenes/fondodestellos.png);
+        box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
+        text-align: center;
+        border-radius: 1.87em;
+        width: 18em;
+        height: 29em;
+        position: relative;
+    }
+
+    .input-group{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    label{
+        margin-bottom: 0.93em;
+        font-size: 0.75em;
+        font-family:'aAbstractGroovy', cursive;
+        border-radius: 10px;
+    }
+
+    input, textarea{
+        padding: 0.9em 1.5em;
+        border-radius: 1.5em;
+        margin-bottom: 1em;
+        background-color: #fce7f1;
+        border: 2px solid #fce7f1;
+        outline: none;
+        font-size: 0.7em;
+        text-align: center;
+    }
+
+    input.btn{
+        font-size: 0.8em;
+        font-family:'aAbstractGroovy', cursive;
+        background-color: white;
+        border-radius: 1.5em;
+        box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
+        width: 40%;
+        height: 20%;
+    }
+
+    ul.barbie-contacto{
+        flex-wrap: wrap; 
+        display: flex;
+        justify-content: end;
+        position: relative;
+        border: 1px solid black;
+        margin-top: 10%;
+    }
+    
+    img.size-barbie-contacto{
+        width: 150px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+  
+    div.caja-botones{
+        left: 22%;
+        border: 0.1px solid rgb(255, 255, 255);
+        flex-direction: none;
+        position: relative;
+        flex-wrap: wrap;
+        box-shadow: none;
+        top: -15%;
+        border-bottom-left-radius: none;
+        //transform: translatey(-170%);//
+    }
+
+    li.boton-menu, .dropdown{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family:'aAbstractGroovy', cursive;
+        width: 8.5rem;
+        height: 1.5rem;
+        background-color:#ffe3f0 ;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        //font-size: 100%;//
+        margin-top: 3.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 3.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;  
+    }
+
+    li.boton-menu{
+        font-size: 120%;
+    }
+
+
+    .botones{
+        width: 100px;
+        height: 30px;
+        
+    }
+    
+    ul.dropdown-menu.show {
+        display: block;
+       
+        background-color: nth($colores, 16);
+        padding-top: 3%;
+        font-family:nth($font, 3); 
+        border: 1px solid nth($colores, 1);
+        z-index: 99;
+        width: 150%;
+        height: auto;
+    }
+    
+    a.dropdown-item{
+        font-size: 120%;
+    }
+
+    a.btn-secondary.dropdown-toggle{
+        font-family: nth($font, 1);
+        font-size: 100%; 
+    }
+    
+    
+    ul.dropdown-menu.show {
+        --bs-dropdown-link-color: var(--bs-body-color);
+        --bs-dropdown-link-hover-color: #e43394;;
+        --bs-dropdown-link-hover-bg: #f5d0e4;
+        --bs-dropdown-link-active-color: #e43394;
+        --bs-dropdown-link-active-bg: nth($colores, 1);
+        --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
+        --bs-dropdown-item-padding-x: 2rem;
+        --bs-dropdown-item-padding-y: 0.2rem;
+        --bs-dropdown-header-padding-x: 0rem;
+        --bs-dropdown-header-padding-y: 0rem;
+        z-index: 99!important; 
+    }
+    
+    li.boton-menu, .dropdown {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "aAbstractGroovy", cursive;
+        width: 7rem;
+        height: 1rem;
+        background-color: #ffe3f0;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+    }
+    
+    li#dropdown {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-family: "aAbstractGroovy", cursive;
+        width: 7rem;
+        height: 1rem;
+        background-color: #ffe3f0;
+        filter: drop-shadow(5px 3px -4px #f8c3dc);
+        border: 1px solid #ffe3f0;
+        border-radius: 80px;
+        font-size: 0.7rem;
+        margin-top: 1.5rem;
+        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-bottom: 1.5rem;
+        padding-top: 1.7rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+        padding-left: 1.8rem;
+    }
+
+}
+    
+
     
