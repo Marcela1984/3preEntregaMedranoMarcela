@@ -444,7 +444,7 @@ a.btn-secondary.dropdown-toggle{
         #lista {
             border: none;
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
@@ -456,10 +456,13 @@ a.btn-secondary.dropdown-toggle{
         .caja-botones-index{
             border: none;
             position: absolute;
-            top: 50%;
-            left: 55%;
-            transform: translate(-60%, -50%);
+            //top: 50%;
+            //left: 55%;//
+            //transform: translate(-30%, -80%)//;//
+            transform: translateX(-40%);
         }
+
+       
         .boton-menu-index, li#dropdown-index{
             margin-top: 0.5rem;
             margin-bottom: 0.5rem;

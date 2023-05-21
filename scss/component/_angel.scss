@@ -255,12 +255,12 @@ a.btn-secondary.dropdown-toggle{
         
     }
 
-    .barbie-contacto{
+    .barbie-angel{
         
         display: none; 
  }
 
- .size-barbie-contacto{
+ .size-barbie-angel{
      display: none;
  }
 
@@ -448,6 +448,7 @@ h1.tittle-angel{
     flex-direction: column;
     margin-left: 2%;
     border: 2px solid rgb(255, 255, 255);
+    top: -1%;
 }
 
 ul.barbie-angel{
@@ -637,7 +638,6 @@ li#dropdown-angel {
         display: flex;
         justify-content: end;
         position: relative;
-        border: 1px solid black;
         margin-top: 0%;
     }
 
