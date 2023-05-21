@@ -805,22 +805,28 @@ a.btn-secondary.dropdown-toggle{
         }
 
         ul.barbie-contacto{
-            flex-wrap: wrap; 
+            transform:translateY(20%);
+    
+        }
+        
+
+        ul.barbie-contacto {
+            flex-wrap: wrap;
             display: flex;
             justify-content: end;
             position: relative;
-            border: 1px solid black;
             right: 10%;
-            transform:translateY(20%);
         }
+
+
         
         img.size-barbie-contacto{
             width: 57%;
+
         }
       
         div.caja-botones{
             left: 12%;
-            border: 0.1px solid rgb(255, 255, 255);
             flex-direction: none;
             position: relative;
             flex-wrap: wrap;
@@ -1079,7 +1085,7 @@ a.btn-secondary.dropdown-toggle{
         display: flex;
         justify-content: end;
         position: relative;
-        border: 1px solid black;
+        border: 1px solid rgb(255, 255, 255);
         margin-top: 10%;
     }
     

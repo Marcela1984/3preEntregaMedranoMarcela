@@ -450,17 +450,17 @@ h1.tittle-angel{
     border: 2px solid rgb(255, 255, 255);
 }
 
-ul.barbie-contacto{
+ul.barbie-angel{
     flex-wrap: wrap; 
     display: flex;
     justify-content: end;
     position: relative;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     right: 10%;
     
 }
 
-img.size-barbie-contacto{
+img.size-barbie-angel{
     width: 57%;
 }
 div#lista{
@@ -632,7 +632,7 @@ li#dropdown-angel {
         border: 2px solid rgb(255, 255, 255);
     }
 
-    ul.barbie-contacto{
+    ul.barbie-angel{
         flex-wrap: wrap; 
         display: flex;
         justify-content: end;
@@ -645,7 +645,7 @@ li#dropdown-angel {
         top: 1%;
     }
     
-    img.size-barbie-contacto{
+    img.size-barbie-angel{
         width: 150px;
         margin-right: 5%;
         margin-left: 5%;
