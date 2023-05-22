@@ -150,8 +150,8 @@
                 width: 75px;
                 padding-bottom: 2%;    
             }
-            .carrito {
-                width: 20px;
+            img.carrito {
+                width: 25px;
                 padding-bottom: 2%; 
             }
             .instagram {
@@ -195,8 +195,8 @@
                 width: 120px;
                 padding-bottom: 2%;    
             }
-            .carrito {
-                width: 40px;
+            img.carrito {
+                width: 35px;
                 padding-bottom: 2%; 
             }
             .instagram {
@@ -363,8 +363,21 @@
                     top: 0%;
                     z-index: 2;
                 }
+
+                #encabezado{
+                    padding-bottom: 0.5rem;
+                    height: 4rem;
+                    top: 0%;
+                    z-index: 2;
+                }
                 
                 .fontencabezado-contacto{
+                    padding-top: 1%;
+                    font-size: 200%;
+                    padding-bottom: 2%;
+                }
+
+                .fontencabezado{
                     padding-top: 1%;
                     font-size: 200%;
                     padding-bottom: 2%;
@@ -374,8 +387,8 @@
                     width: 120px;
                     padding-bottom: 2%;    
                 }
-                .carrito {
-                    width: 40px;
+                img.carrito {
+                    width: 35px;
                     padding-bottom: 2%; 
                 }
                 .instagram {
@@ -437,9 +450,8 @@
                     right: 1%;
                     transform: translateY(-60%);
                     flex-wrap: wrap;
-                    .carrito{
-                      width: 20px;  
-                    }
+                    .carrito{}
+                    
                     .instagram {}
 
                     .facebook{}
@@ -536,8 +548,8 @@
                         width: 75px;
                         padding-bottom: 2%;    
                     }
-                    .carrito {
-                        width: 20px;
+                    img.carrito {
+                        width: 25px;
                         padding-bottom: 2%; 
                     }
                     .instagram {
@@ -587,8 +599,8 @@
                         width: 120px;
                         padding-bottom: 2%;    
                     }
-                    .carrito {
-                        width: 40px;
+                    img.carrito {
+                        width: 35px;
                         padding-bottom: 2%; 
                     }
                     .instagram {
