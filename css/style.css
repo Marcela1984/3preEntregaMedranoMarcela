@@ -55,14 +55,6 @@ footer div .link-footer {
   flex-wrap: wrap;
   justify-content: center;
 }
-footer div .link-footer .kitty {
-  width: 3.5%;
-  height: 3.5%;
-}
-footer div .link-footer .a .kitty {
-  width: 3.5%;
-  height: 3.5%;
-}
 @media screen and (min-width: 320px) and (max-width: 456px) {
   footer #texto-footer {
     font-size: 0.5em;
@@ -111,97 +103,65 @@ footer div .link-footer .a .kitty {
     margin-top: -20%;
   }
   footer .link-footer {
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
   footer .kitty {
-    width: 4%;
-    height: 4%;
+    width: 2.5%;
+    height: 2.5%;
   }
 }
 @media screen and (min-width: 961px) and (max-width: 1197px) {
   footer #texto-footer {
-    font-size: 1em;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    margin-bottom: 0.5%;
-    margin-top: 0%;
-    padding: 2%;
-    flex-wrap: wrap;
+    font-size: 0.7em;
   }
   footer .link-footer {
-    box-shadow: -5px -5px 10px 0px rgba(247, 124, 183, 0.5);
-    font-family: "Times New Roman", Times, serif;
-    padding-top: 1%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.4em;
+    font-size: 0.8em;
   }
   footer .candado {
-    width: 2.8rem;
+    width: 2rem;
     margin-top: 1%;
   }
   footer .camion {
-    width: 2.8rem;
+    width: 2rem;
     margin-top: 1%;
   }
   footer .datos {
     margin-top: -5%;
   }
   footer .tarjeta {
-    width: 2.8rem;
+    width: 2rem;
     margin-top: 1%;
   }
   footer .kitty {
-    width: 3.5%;
-    height: 3.5%;
+    width: 2.5%;
+    height: 2.5%;
   }
 }
 @media screen and (min-width: 1198px) {
   footer #texto-footer {
-    font-size: 1.2em;
-    display: flex;
-    justify-content: space-between;
-    font-family: "Times New Roman", Times, serif;
-    text-align: center;
-    margin-bottom: 0.5%;
-    margin-top: 0%;
-    padding: 2%;
-    flex-wrap: wrap;
+    font-size: 1em;
   }
   footer .link-footer {
-    box-shadow: -5px -5px 10px 0px rgba(247, 124, 183, 0.5);
-    font-family: "Times New Roman", Times, serif;
-    padding-top: 1%;
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-size: 1.4em;
+    font-size: 0.8em;
   }
   footer .candado {
-    width: 2.8rem;
+    width: 2.5rem;
     margin-top: 1%;
   }
   footer .camion {
-    width: 2.8rem;
+    width: 2.5rem;
     margin-top: 1%;
   }
   footer .datos {
     margin-top: -5%;
   }
   footer .tarjeta {
-    width: 2.8rem;
+    width: 2.5rem;
     margin-top: 1%;
   }
   footer .kitty {
-    width: 3.5%;
-    height: 3.5%;
+    width: 2.5%;
+    height: 2.5%;
   }
 }
 
@@ -535,7 +495,7 @@ header .dropdown-item {
   .fontencabezado-index {
     top: 10%;
     padding-top: 1%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-bottom: 1%;
   }
   .tamaño-imagen-header {
@@ -567,7 +527,7 @@ header .dropdown-item {
   width: 100%;
   top: 0%;
   z-index: 2;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman";
 }
 @media screen and (min-width: 320px) and (max-width: 456px) {
   #encabezado-contacto {
@@ -629,9 +589,9 @@ header .dropdown-item {
     z-index: 2;
   }
   .fontencabezado-contacto {
-    padding-top: 1.8%;
-    padding-bottom: 2.6%;
-    font-size: 100%;
+    padding-top: 2.5%;
+    font-size: 0.8em;
+    padding-bottom: 5%;
   }
   .tamaño-imagen-header {
     width: 75px;
@@ -661,6 +621,32 @@ header .dropdown-item {
   .fontencabezado-mobile {
     display: none;
   }
+  #encabezado-contacto {
+    padding-bottom: 0.5rem;
+    height: 2.3rem;
+    z-index: 2;
+  }
+  .fontencabezado-contacto {
+    padding-top: 1.7%;
+    font-size: 1em;
+    padding-bottom: 2.7%;
+  }
+  .tamaño-imagen-header {
+    width: 75px;
+    padding-bottom: 2%;
+  }
+  img.carrito {
+    width: 25px;
+    padding-bottom: 2%;
+  }
+  .instagram {
+    width: 18px;
+    padding-bottom: 2%;
+  }
+  .facebook {
+    width: 18px;
+    padding-bottom: 2%;
+  }
 }
 @media screen and (min-width: 1198px) {
   #encabezado-mobile, #navbar-mobile {
@@ -674,25 +660,27 @@ header .dropdown-item {
   }
   #encabezado-contacto {
     padding-bottom: 0.5rem;
-    height: 4rem;
+    height: 3rem;
     top: 0%;
     z-index: 2;
   }
   #encabezado {
     padding-bottom: 0.5rem;
-    height: 4rem;
+    height: 3rem;
     top: 0%;
     z-index: 2;
   }
-  .fontencabezado-contacto {
-    padding-top: 1%;
-    font-size: 200%;
-    padding-bottom: 2%;
-  }
   .fontencabezado {
+    top: 10%;
     padding-top: 1%;
-    font-size: 200%;
-    padding-bottom: 2%;
+    font-size: 1.2em;
+    padding-bottom: 1%;
+  }
+  .fontencabezado-contacto {
+    top: 10%;
+    padding-top: 1%;
+    font-size: 1.2em;
+    padding-bottom: 1%;
   }
   .tamaño-imagen-header {
     width: 120px;
@@ -778,9 +766,9 @@ header .dropdown-item {
     z-index: 2;
   }
   .fontencabezado {
-    padding-top: 1.2%;
-    padding-bottom: 2%;
-    font-size: 100%;
+    padding-top: 2.5%;
+    font-size: 0.8em;
+    padding-bottom: 5%;
   }
   .tamaño-imagen-header {
     width: 75px;
@@ -815,12 +803,12 @@ header .dropdown-item {
   #encabezado {
     padding-bottom: 0.5rem;
     height: 2.3rem;
-    top: 0%;
     z-index: 2;
   }
   .fontencabezado {
-    padding-top: 1%;
+    padding-top: 1.7%;
     font-size: 1em;
+    padding-bottom: 1%;
   }
   .tamaño-imagen-header {
     width: 75px;
@@ -859,7 +847,8 @@ header .dropdown-item {
     z-index: 2;
   }
   .fontencabezado {
-    padding-top: 0.5%;
+    top: 10%;
+    padding-top: 1%;
     font-size: 1.5em;
     padding-bottom: 1%;
   }
@@ -910,7 +899,7 @@ header .dropdown-item {
 
 /* FORMULARIO */
 h1.tittle-pages {
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "aAbstractGroovy";
 }
 
 a.inicio-contacto {
@@ -946,7 +935,7 @@ h1.tittle-pages {
 }
 
 form {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman";
   display: flex;
   align-items: center;
   align-self: center;
@@ -987,14 +976,14 @@ input, textarea {
 .btn {
   font-size: 1em;
   font-family: "aAbstractGroovy", cursive;
-  background-color: white;
+  background-color: #ffffff;
   border-radius: 1.8em;
   box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
   width: 50%;
-  background-color: #ffe3f0;
+  background-color: rgb(243, 197, 222);
 }
 .btn:hover {
-  background-color: #ffe3f0;
+  background-color: rgb(243, 197, 222);
 }
 
 .boton-menu {
@@ -1406,7 +1395,7 @@ a.btn-secondary.dropdown-toggle {
   }
   #grid-menu-desplegable-page-contacto {
     grid-area: menuu;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
     display: flex;
     flex-direction: column;
     position: relative;
@@ -1468,13 +1457,13 @@ a.btn-secondary.dropdown-toggle {
     align-items: center;
     align-self: center;
     justify-content: center;
-    padding: 2.1em 2em;
+    padding: 2.5em 2em;
     background-image: url(../imagenes/fondodestellos.png);
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
     text-align: center;
     border-radius: 1.87em;
-    width: 18em;
-    height: 29em;
+    width: 22em;
+    height: 36em;
     position: relative;
   }
   .input-group {
@@ -1483,9 +1472,10 @@ a.btn-secondary.dropdown-toggle {
     text-align: center;
   }
   label {
-    margin-bottom: 0.93em;
-    font-size: 0.75em;
-    font-family: "aAbstractGroovy", cursive;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    font-family: "aAbstractGroovy";
     border-radius: 10px;
   }
   input, textarea {
@@ -1495,7 +1485,7 @@ a.btn-secondary.dropdown-toggle {
     background-color: #fce7f1;
     border: 2px solid #fce7f1;
     outline: none;
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
   }
   input.btn {
@@ -1506,6 +1496,9 @@ a.btn-secondary.dropdown-toggle {
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
     width: 40%;
     height: 20%;
+  }
+  ul.ul-contacto {
+    transform: translateY(-45%);
   }
   ul.barbie-contacto {
     transform: translateY(20%);
@@ -1606,6 +1599,9 @@ a.btn-secondary.dropdown-toggle {
     padding-right: 1.8rem;
     padding-left: 1.8rem;
   }
+  input.btn {
+    box-shadow: 0 0 20px rgba(240, 7, 123, 0.9);
+  }
   li#dropdown {
     display: flex;
     justify-content: center;
@@ -1700,13 +1696,13 @@ a.btn-secondary.dropdown-toggle {
     align-items: center;
     align-self: center;
     justify-content: center;
-    padding: 2.1em 2em;
+    padding: 2em 2em;
     background-image: url(../imagenes/fondodestellos.png);
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
     text-align: center;
     border-radius: 1.87em;
-    width: 18em;
-    height: 29em;
+    width: 25em;
+    height: 40em;
     position: relative;
   }
   .input-group {
@@ -1716,9 +1712,12 @@ a.btn-secondary.dropdown-toggle {
   }
   label {
     margin-bottom: 0.93em;
-    font-size: 0.75em;
-    font-family: "aAbstractGroovy", cursive;
+    font-size: 1em;
+    font-family: "aAbstractGroovy";
     border-radius: 10px;
+  }
+  label.name {
+    padding-top: 10%;
   }
   input, textarea {
     padding: 0.9em 1.5em;
@@ -1727,17 +1726,20 @@ a.btn-secondary.dropdown-toggle {
     background-color: #fce7f1;
     border: 2px solid #fce7f1;
     outline: none;
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
   }
   input.btn {
-    font-size: 0.8em;
-    font-family: "aAbstractGroovy", cursive;
+    font-size: 1em;
+    font-family: "aAbstractGroovy";
     background-color: white;
     border-radius: 1.5em;
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
     width: 40%;
     height: 20%;
+  }
+  input.btn {
+    box-shadow: 0 0 20px rgba(240, 7, 123, 0.9);
   }
   ul.barbie-contacto {
     flex-wrap: wrap;
@@ -1761,6 +1763,10 @@ a.btn-secondary.dropdown-toggle {
     box-shadow: none;
     top: -15%;
     border-bottom-left-radius: none;
+  }
+  ul.ul-contacto {
+    position: relative;
+    top: -8%;
   }
   li.boton-menu, .dropdown {
     display: flex;
@@ -1894,7 +1900,11 @@ a.btn-secondary.dropdown-toggle {
   justify-content: center;
   flex-wrap: wrap;
 }
-#grid-contenedor-index #grid-productos-index div .productos-seccion {
+#grid-contenedor-index #grid-productos-index div nav.productos {
+  position: relative;
+  top: 18%;
+}
+#grid-contenedor-index #grid-productos-index div nav.productos a.productos-seccion {
   display: flex;
   justify-content: center;
   font-family: "aAbstractGroovy";
@@ -2105,6 +2115,9 @@ a.btn-secondary.dropdown-toggle {
     position: relative;
     flex-wrap: wrap;
   }
+  .productos-seccion:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
   .botones {
     justify-content: center;
     align-items: center;
@@ -2165,13 +2178,12 @@ a.btn-secondary.dropdown-toggle {
   .productos-seccion {
     display: flex;
     justify-content: center;
-    top: 65%;
-    padding-top: 1%;
-    font-family: "aAbstractGroovy", cursive;
+    margin-top: 10%;
+    padding-top: 5%;
+    font-family: "aAbstractGroovy";
     color: rgba(0, 0, 0, 0);
     font-size: 170% !important;
     text-shadow: 2px 0px 3px rgba(245, 8, 138, 0.5), 4px 0px 3px rgba(153, 122, 137, 0.904);
-    position: relative;
     flex-wrap: wrap;
     font-size: 150%;
     border: none;
@@ -2220,11 +2232,11 @@ a.btn-secondary.dropdown-toggle {
   .caja-botones-index {
     border: none;
     position: absolute;
-    transform: translateX(-40%);
+    transform: translateX(-5rem);
   }
   .boton-menu-index, li#dropdown-index {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;
@@ -2308,8 +2320,8 @@ a.btn-secondary.dropdown-toggle {
     bottom: 10%;
   }
   .boton-menu-index, li#dropdown-index {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;
@@ -2392,8 +2404,8 @@ a.btn-secondary.dropdown-toggle {
     bottom: 10%;
   }
   .boton-menu-index, li#dropdown-index {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;
@@ -2626,22 +2638,22 @@ section #galeria-index::-webkit-scrollbar-thumb {
     z-index: -1;
   }
   .fairy {
-    width: 20em;
-    height: 20em;
+    width: 22em;
+    height: 22em;
   }
   .texto-encima-video1 {
     font-size: 4em;
   }
   .angel {
-    width: 20em;
-    height: 20em;
+    width: 22em;
+    height: 22em;
   }
   .texto-encima-video2 {
     font-size: 4.4em;
   }
   .gothic {
-    width: 20em;
-    height: 20em;
+    width: 22em;
+    height: 22em;
   }
   .texto-encima-fotos {
     font-size: 4em;
@@ -2658,16 +2670,16 @@ section #galeria-index::-webkit-scrollbar-thumb {
     margin-top: 0%;
   }
   .fairy {
-    width: 28em;
-    height: 28em;
+    width: 25em;
+    height: 25em;
   }
   .angel {
-    width: 28em;
-    height: 28em;
+    width: 25em;
+    height: 25em;
   }
   .gothic {
-    width: 28em;
-    height: 28em;
+    width: 25em;
+    height: 25em;
   }
   .texto-encima-video1 {
     font-size: 4em;
@@ -2688,16 +2700,16 @@ section #galeria-index::-webkit-scrollbar-thumb {
     z-index: -2;
   }
   .fairy {
-    width: 38em;
-    height: 38em;
+    width: 35em;
+    height: 35em;
   }
   .angel {
-    width: 38em;
-    height: 38em;
+    width: 35em;
+    height: 35em;
   }
   .gothic {
-    width: 38em;
-    height: 38em;
+    width: 35em;
+    height: 35em;
   }
   .texto-encima-video1 {
     font-size: 6em;
@@ -2707,6 +2719,9 @@ section #galeria-index::-webkit-scrollbar-thumb {
   }
   .texto-encima-fotos {
     font-size: 6em;
+  }
+  #galeria-index::-webkit-scrollbar {
+    height: 0.9rem;
   }
 }
 /*<!--MENU DESPLEGABLE-->*/

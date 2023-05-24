@@ -123,7 +123,7 @@
 /* FORMULARIO */
 
 h1.tittle-pages{
-    font-family:'aAbstractGroovy', cursive;
+    font-family:nth($font,1);
 }
 
 a.inicio-contacto{
@@ -157,7 +157,7 @@ h1.tittle-pages{
 }
 
 form{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: nth($font, 3 );
     display: flex;
     align-items: center;
     align-self: center;
@@ -202,13 +202,13 @@ input, textarea{
 .btn{
     font-size: 1em;
     font-family:'aAbstractGroovy', cursive;
-    background-color: white;
+    background-color: nth($colores, 4 );
     border-radius: 1.8em;
     box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
     width: 50%;
-    background-color: #ffe3f0; 
+    background-color: nth($colores, 1 ); 
     &:hover{
-        background-color: #ffe3f0;  
+        background-color:  nth($colores, 1 );  
     }
     
 }
@@ -685,7 +685,7 @@ a.btn-secondary.dropdown-toggle{
         
         #grid-menu-desplegable-page-contacto{
             grid-area: menuu;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: nth($font, 3);
             display: flex;
             flex-direction: column;
             position: relative;
@@ -759,15 +759,16 @@ a.btn-secondary.dropdown-toggle{
             align-items: center;
             align-self: center;
             justify-content: center;
-            padding: 2.1em 2em;
+            padding: 2.5em 2em;
             background-image: url(../imagenes/fondodestellos.png);
             box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
             text-align: center;
             border-radius: 1.87em;
-            width: 18em;
-            height: 29em;
+            width: 22em;
+            height: 36em;
             position: relative;
         }
+
 
         .input-group{
             display: flex;
@@ -776,10 +777,12 @@ a.btn-secondary.dropdown-toggle{
         }
 
 
+
         label{
-            margin-bottom: 0.93em;
-            font-size: 0.75em;
-            font-family:'aAbstractGroovy', cursive;
+            margin-bottom: 0.5em;
+            margin-top: 0.5em;
+            font-size: 0.9em;
+            font-family:nth($font,1);
             border-radius: 10px;
         }
 
@@ -790,7 +793,7 @@ a.btn-secondary.dropdown-toggle{
             background-color: #fce7f1;
             border: 2px solid #fce7f1;
             outline: none;
-            font-size: 0.7em;
+            font-size: 1em;
             text-align: center;
         }
 
@@ -802,6 +805,10 @@ a.btn-secondary.dropdown-toggle{
             box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
             width: 40%;
             height: 20%;
+        }
+
+        ul.ul-contacto{
+            transform:translateY(-45%);
         }
 
         ul.barbie-contacto{
@@ -923,6 +930,10 @@ a.btn-secondary.dropdown-toggle{
             padding-right: 1.8rem;
             padding-left: 1.8rem;
         }
+
+        input.btn{
+            box-shadow: 0 0 20px rgba(240, 7, 123, 0.9);
+        }
         
         li#dropdown {
             display: flex;
@@ -1035,13 +1046,13 @@ a.btn-secondary.dropdown-toggle{
         align-items: center;
         align-self: center;
         justify-content: center;
-        padding: 2.1em 2em;
+        padding: 2em 2em;
         background-image: url(../imagenes/fondodestellos.png);
         box-shadow: 0 0 20px rgba(250, 164, 207, 0.5);
         text-align: center;
         border-radius: 1.87em;
-        width: 18em;
-        height: 29em;
+        width: 25em;
+        height: 40em;
         position: relative;
     }
 
@@ -1054,9 +1065,13 @@ a.btn-secondary.dropdown-toggle{
 
     label{
         margin-bottom: 0.93em;
-        font-size: 0.75em;
-        font-family:'aAbstractGroovy', cursive;
+        font-size: 1em;
+        font-family:nth($font, 1);
         border-radius: 10px;
+    }
+    
+    label.name{
+        padding-top: 10%;
     }
 
     input, textarea{
@@ -1066,19 +1081,24 @@ a.btn-secondary.dropdown-toggle{
         background-color: #fce7f1;
         border: 2px solid #fce7f1;
         outline: none;
-        font-size: 0.7em;
+        font-size: 1em;
         text-align: center;
     }
 
     input.btn{
-        font-size: 0.8em;
-        font-family:'aAbstractGroovy', cursive;
+        font-size: 1em;
+        font-family: nth($font, 1);
         background-color: white;
         border-radius: 1.5em;
         box-shadow: 0 0 20px rgba(250, 164, 207, 0.9);
         width: 40%;
         height: 20%;
     }
+
+    input.btn{
+            box-shadow: 0 0 20px rgba(240, 7, 123, 0.9);
+        }
+    
 
     ul.barbie-contacto{
         flex-wrap: wrap; 
@@ -1104,7 +1124,11 @@ a.btn-secondary.dropdown-toggle{
         box-shadow: none;
         top: -15%;
         border-bottom-left-radius: none;
-        //transform: translatey(-170%);//
+    }
+
+    ul.ul-contacto{
+        position: relative;
+        top: -8%;
     }
 
     li.boton-menu, .dropdown{

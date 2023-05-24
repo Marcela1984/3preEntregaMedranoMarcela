@@ -39,27 +39,27 @@ footer{
                 width: 2.8rem;
                 margin-top: 1%;
             }
-    div{
-        .link-footer{
-            
-            box-shadow: -5px -5px 10px 0px nth($colores,3);
-            font-family: nth($font, 3);
-            padding-top: 1%;
-            padding-bottom: 0%;
-            margin-bottom: 0%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
+        div{
+            .link-footer{
+                
+                box-shadow: -5px -5px 10px 0px nth($colores,3);
+                font-family: nth($font, 3);
+                padding-top: 1%;
+                padding-bottom: 0%;
+                margin-bottom: 0%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
             
             
             .kitty{
-                width: 3.5%;
-                height:3.5%;
+                //
+            } 
+            .a {
+                //
             }
-            .a 
             .kitty{
-                width: 3.5%;
-                height:3.5%;
+                //
             }
             }
             }
@@ -124,47 +124,32 @@ footer{
 
 
                 .link-footer{
-                    font-size: 0.8em;
+                    font-size: 0.7em;
                 }
 
                 .kitty{
-                    width: 4%;
-                    height: 4%;
+                    width: 2.5%;
+                    height: 2.5%;
                 }
             }
 
             @include desktop{
                 #texto-footer{
-                    font-size: 1em;
-                    display: flex;
-                    justify-content: space-between;
-                    font-family: 'Times New Roman', Times, serif;
-                    text-align: center;
-                    margin-bottom: 0.5%;
-                    margin-top: 0%;
-                    padding: 2%;
-                    flex-wrap: wrap;
+                    font-size: 0.7em;
             }
             
                 .link-footer{
-                    box-shadow: -5px -5px 10px 0px nth($colores,3);
-                    font-family: 'Times New Roman', Times, serif;
-                    padding-top: 1%;
-                    padding-bottom: 0%;
-                    margin-bottom: 0%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    font-size: 1.4em;  
+
+                    font-size: 0.8em;  
                 }
             
                 .candado{
-                    width: 2.8rem;
+                    width: 2rem;
                     margin-top: 1%;
                 }
                 
                 .camion{
-                    width: 2.8rem;
+                    width: 2rem;
                     margin-top: 1%;
                 }
                 .datos{
@@ -172,48 +157,33 @@ footer{
                 }
                 
                 .tarjeta{
-                    width: 2.8rem;
+                    width: 2rem;
                     margin-top: 1%;
                 }
                 
                 .kitty{
-                    width: 3.5%;
-                    height:3.5%;
+                    width: 2.5%;
+                    height:2.5%;
                 }
             }
 
             @include pantalla-grande{
                 #texto-footer{
-                    font-size: 1.2em;
-                    display: flex;
-                    justify-content: space-between;
-                    font-family: 'Times New Roman', Times, serif;
-                    text-align: center;
-                    margin-bottom: 0.5%;
-                    margin-top: 0%;
-                    padding: 2%;
-                    flex-wrap: wrap;
+                    font-size: 1em;
             }
         
                 .link-footer{
-                    box-shadow: -5px -5px 10px 0px nth($colores,3);
-                    font-family: 'Times New Roman', Times, serif;
-                    padding-top: 1%;
-                    padding-bottom: 0%;
-                    margin-bottom: 0%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    font-size: 1.4em;  
+
+                    font-size: 0.8em;  
                 }
         
                 .candado{
-                    width: 2.8rem;
+                    width: 2.5rem;
                     margin-top: 1%;
                 }
                 
                 .camion{
-                    width: 2.8rem;
+                    width: 2.5rem;
                     margin-top: 1%;
                 }
                 .datos{
@@ -221,18 +191,16 @@ footer{
                 }
                 
                 .tarjeta{
-                    width: 2.8rem;
+                    width: 2.5rem;
                     margin-top: 1%;
                 }
                 
                 .kitty{
-                    width: 3.5%;
-                    height:3.5%;
+                    width: 2.5%;
+                    height: 2.5%;
                 }
             }
-
-
- }
+        }
            
 
            

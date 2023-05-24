@@ -22,10 +22,8 @@
             font-family: nth($font, 3);
             .logo-corazon{
                 width: 100%;
-                height: 100%;
-                 
+                height: 100%;    
             }
-
         }//<div>//
     }//</section>//
     //PRODUCTOS//
@@ -36,15 +34,20 @@
                 justify-content: center;
                 flex-wrap: wrap;   
             div{
-                .productos-seccion {
+                nav.productos{
+                    position: relative;
+                    top:18%;
+                a.productos-seccion {
                     display: flex;
                     justify-content: center;
                     //padding-top: 5%;//
                     font-family: nth($font, 1);
-                    color: rgba(0, 0, 0, 0);
+                    color: nth($colores, 17);
                     text-shadow: 2px 0px 3px rgba(245, 8, 138, 0.5) , 4px 0px 3px rgba(153, 122, 137, 0.904);   
                     position: relative;
                     flex-wrap: wrap;
+                    p{}
+                }
                 }
                  ul{
                     .productos-flex{
@@ -318,6 +321,9 @@ a.btn-secondary.dropdown-toggle{
     text-shadow: 2px 0px 3px nth($colores, 2) , 4px 0px 3px nth($colores, 3);   
     position: relative;
     flex-wrap: wrap;
+    &:hover {
+        color: nth($colores, 19);
+      }
 }
 
 .botones{
@@ -391,13 +397,12 @@ a.btn-secondary.dropdown-toggle{
         .productos-seccion{
             display: flex;
             justify-content: center;
-            top: 65%;
-            padding-top: 1%;
-            font-family: 'aAbstractGroovy', cursive;
-            color: rgba(0, 0, 0, 0);
+            margin-top: 10%;
+            padding-top: 5%;
+            font-family: nth($font, 1);
+            color: nth($colores,17);
             font-size: 170%!important;
             text-shadow: 2px 0px 3px rgba(245, 8, 138, 0.5) , 4px 0px 3px rgba(153, 122, 137, 0.904);   
-            position: relative;
             flex-wrap: wrap;
             font-size: 150%;
             border: none;
@@ -456,16 +461,13 @@ a.btn-secondary.dropdown-toggle{
         .caja-botones-index{
             border: none;
             position: absolute;
-            //top: 50%;
-            //left: 55%;//
-            //transform: translate(-30%, -80%)//;//
-            transform: translateX(-40%);
+            transform: translateX(-5rem);
         }
 
         
         .boton-menu-index, li#dropdown-index{
-            margin-top: 0.5rem;
-            margin-bottom: 0.5rem;
+            margin-top: 0.9rem;
+            margin-bottom: 0.9rem;
             padding-top: 0.7rem;
             padding-bottom: 0.5rem;
             padding-right: 0.8rem;
@@ -572,8 +574,8 @@ a.btn-secondary.dropdown-toggle{
 }
 
 .boton-menu-index, li#dropdown-index{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;
@@ -677,8 +679,8 @@ ul.dropdown-menu.show {
 }
 
 .boton-menu-index, li#dropdown-index{
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding-top: 0.7rem;
     padding-bottom: 0.5rem;
     padding-right: 0.8rem;

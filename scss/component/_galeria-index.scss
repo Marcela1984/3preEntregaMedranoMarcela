@@ -207,7 +207,7 @@
             margin-top: 0%;
             margin-bottom: 0%;
             right: 0;
-        left: 0;
+            left: 0;
             flex-wrap: wrap;
             position: relative;
             justify-self: center;
@@ -262,8 +262,8 @@
     }
 
     .fairy{
-        width: 20em;
-        height: 20em;
+        width: 22em;
+        height: 22em;
     }
 
     .texto-encima-video1{
@@ -271,8 +271,8 @@
     }
 
     .angel{
-        width: 20em;
-        height: 20em;
+        width: 22em;
+        height: 22em;
     }
 
     .texto-encima-video2{
@@ -280,8 +280,8 @@
     }
 
     .gothic{
-        width: 20em;
-        height: 20em;
+        width: 22em;
+        height: 22em;
     }
 
     .texto-encima-fotos{
@@ -305,18 +305,18 @@
         margin-top: 0%;
     }
     .fairy{
-        width: 28em;
-        height: 28em;
+        width: 25em;
+        height: 25em;
     }
 
     .angel{
-        width: 28em;
-        height: 28em;
+        width: 25em;
+        height: 25em;
     }
 
     .gothic{
-        width: 28em;
-        height: 28em;
+        width: 25em;
+        height: 25em;
     }
 
     .texto-encima-video1{
@@ -343,18 +343,18 @@
         z-index: -2;
     }
     .fairy{
-        width: 38em;
-        height: 38em;
+        width: 35em;
+        height: 35em;
     }
 
     .angel{
-        width: 38em;
-        height: 38em;
+        width: 35em;
+        height: 35em;
     }
 
     .gothic{
-        width: 38em;
-        height: 38em;
+        width: 35em;
+        height: 35em;
     }
     .texto-encima-video1{
         font-size: 6em;
@@ -364,6 +364,10 @@
     }
     .texto-encima-fotos{
         font-size: 6em;
+    }
+
+    #galeria-index::-webkit-scrollbar {
+        height: 0.9rem; 
     }
 
 }
