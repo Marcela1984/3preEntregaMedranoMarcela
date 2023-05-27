@@ -61,8 +61,8 @@
             }//</div>//         
         }//</div>//
     }//</section>*//
-
     section#grid-carousel{
+        z-index: -2;
     h1.tittle-fairy{
         span.span-fairy{}
     }
@@ -86,7 +86,6 @@ div#carrousel-pages{
         flex-direction: column;
         text-align: center;
         width: 92%;
-        //height: 7%;
         margin-top: 0%;
         margin-left: 7%;
         text-shadow: 2px 0px 3px rgba(187, 44, 44, 0.918);
@@ -102,7 +101,7 @@ div#carrousel-pages{
  
 
     h1.tittle-fairy{
-        font-family:'aAbstractGroovy', cursive;
+        font-family:nth($font, 1);
     }
     
     
@@ -114,7 +113,6 @@ div#carrousel-pages{
         width: 80%;
         display: block;
         margin: auto;
-        border: 1px solid rgb(255, 255, 255);
     }
 
 

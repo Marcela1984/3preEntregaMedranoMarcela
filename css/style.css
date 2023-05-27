@@ -1281,14 +1281,12 @@ a.btn-secondary.dropdown-toggle {
   }
   div.caja-botones {
     left: -35%;
-    border: 0.1px solid rgb(255, 255, 255);
-    top: 30%;
     flex-direction: none;
     position: relative;
     flex-wrap: wrap;
     box-shadow: none;
     border-bottom-left-radius: none;
-    transform: translatey(10500%);
+    transform: translatey(130%);
   }
   li.boton-menu, .dropdown {
     display: flex;
@@ -1449,7 +1447,6 @@ a.btn-secondary.dropdown-toggle {
     flex-direction: column;
     margin-top: 2%;
     margin-left: 2%;
-    border: 2px solid rgb(255, 255, 255);
   }
   form {
     font-family: "Times New Roman", Times, serif;
@@ -1527,7 +1524,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -3370,6 +3367,9 @@ a.btn-secondary.dropdown-toggle {
   position: absolute;
   bottom: 5%;
 }
+#grid-contenedor-fairy section#grid-carousel {
+  z-index: -2;
+}
 div#carrousel-pages {
   margin-top: 3%;
 }
@@ -3399,7 +3399,7 @@ h1.tittle-fairy {
 }
 
 h1.tittle-fairy {
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "aAbstractGroovy";
 }
 
 h1 span.span-fairy {
@@ -3410,7 +3410,6 @@ h1 span.span-fairy {
   width: 80%;
   display: block;
   margin: auto;
-  border: 1px solid rgb(255, 255, 255);
 }
 
 .boton-menu-fairy {
@@ -4055,7 +4054,6 @@ section#grid-carousel-butterfly {
   width: 60%;
   display: block;
   margin: auto;
-  border: 1px solid rgb(255, 255, 255);
   z-index: -2;
 }
 
@@ -4079,7 +4077,7 @@ h1.tittle-butterfly {
 }
 
 h1.tittle-butterfly {
-  font-family: "aAbstractGroovy", cursive;
+  font-family: "aAbstractGroovy";
 }
 
 .boton-menu-butterfly {
@@ -4227,7 +4225,6 @@ a.btn-secondary.dropdown-toggle {
     border-bottom-right-radius: 0.8em;
   }
   div.caja-botones-butterfly {
-    border: 0.1px solid rgb(255, 255, 255);
     flex-direction: none;
     position: relative !important;
     flex-wrap: wrap;
@@ -4244,7 +4241,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -4295,7 +4292,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -4372,7 +4369,6 @@ a.btn-secondary.dropdown-toggle {
     display: flex;
     justify-content: end;
     position: relative;
-    border: 1px solid rgb(255, 255, 255);
     right: 10%;
   }
   img.size-barbie-butterfly {
@@ -4384,7 +4380,6 @@ a.btn-secondary.dropdown-toggle {
   }
   div.caja-botones-butterfly {
     left: 12%;
-    border: 0.1px solid rgb(255, 255, 255);
     flex-direction: none;
     position: relative;
     flex-wrap: wrap;
@@ -4401,7 +4396,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -4478,7 +4473,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -4545,7 +4540,6 @@ a.btn-secondary.dropdown-toggle {
   }
   div.caja-botones-butterfly {
     left: 22%;
-    border: 0.1px solid rgb(255, 255, 255);
     flex-direction: none;
     position: relative;
     flex-wrap: wrap;
@@ -4563,7 +4557,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 8.5rem;
     height: 1.5rem;
     background-color: #ffe3f0;
@@ -4621,7 +4615,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -4643,7 +4637,7 @@ a.btn-secondary.dropdown-toggle {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family: "aAbstractGroovy";
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;

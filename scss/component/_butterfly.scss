@@ -71,7 +71,6 @@ section#grid-carousel-butterfly{
     width: 60%;
     display: block;
     margin: auto;
-    border: 1px solid rgb(255, 255, 255);
     z-index: -2;     
 }
 
@@ -95,7 +94,7 @@ h1.tittle-butterfly{
 }
 
 h1.tittle-butterfly{
-    font-family:'aAbstractGroovy', cursive;
+    font-family:nth($font, 1);
 }
 
 .boton-menu-butterfly{
@@ -261,8 +260,6 @@ a.btn-secondary.dropdown-toggle{
     }
 
  div.caja-botones-butterfly{
-   
-    border: 0.1px solid rgb(255, 255, 255);
     flex-direction: none;
     position: relative !important;
     flex-wrap: wrap;
@@ -282,7 +279,7 @@ a.btn-secondary.dropdown-toggle{
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-family:'aAbstractGroovy', cursive;
+     font-family:nth($font, 1);
      width: 7rem;
      height: 1rem;
      background-color:#ffe3f0 ;
@@ -341,7 +338,7 @@ a.btn-secondary.dropdown-toggle{
      justify-content: center;
      align-items: center;
      text-align: center;
-     font-family: "aAbstractGroovy", cursive;
+     font-family:nth($font, 1);
      width: 7rem;
      height: 1rem;
      background-color: #ffe3f0;
@@ -428,7 +425,6 @@ ul.barbie-butterfly{
     display: flex;
     justify-content: end;
     position: relative;
-    border: 1px solid rgb(255, 255, 255);
     right: 10%;
     
 }
@@ -443,13 +439,11 @@ div#lista{
 
 div.caja-botones-butterfly{
     left: 12%;
-    border: 0.1px solid rgb(255, 255, 255);
     flex-direction: none;
     position: relative;
     flex-wrap: wrap;
     box-shadow: none;
     border-bottom-left-radius: none;
-    //transform: translatey(120%);//
 }
 
 ul.ul-butterfly{
@@ -464,7 +458,7 @@ li.boton-menu-butterfly, #dropdown-butterfly{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family:'aAbstractGroovy', cursive;
+    font-family:nth($font, 1);
     width: 7rem;
     height: 1rem;
     background-color:#ffe3f0 ;
@@ -490,7 +484,6 @@ li.boton-menu-butterfly, #dropdown-butterfly{
 
 ul.dropdown-menu.show {
     display: block;
-   
     background-color: nth($colores, 16);
     padding-top: 3%;
     font-family:nth($font, 3); 
@@ -552,7 +545,7 @@ li#dropdown-butterfly{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: "aAbstractGroovy", cursive;
+    font-family:nth($font, 1);
     width: 7rem;
     height: 1rem;
     background-color: #ffe3f0;
@@ -629,7 +622,6 @@ li#dropdown-butterfly{
   
     div.caja-botones-butterfly{
         left: 22%;
-        border: 0.1px solid rgb(255, 255, 255);
         flex-direction: none;
         position: relative;
         flex-wrap: wrap;
@@ -651,7 +643,7 @@ li#dropdown-butterfly{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family:'aAbstractGroovy', cursive;
+        font-family:nth($font, 1);
         width: 8.5rem;
         height: 1.5rem;
         background-color:#ffe3f0 ;
@@ -682,7 +674,6 @@ li#dropdown-butterfly{
     
     ul.dropdown-menu.show {
         display: block;
-       
         background-color: nth($colores, 16);
         padding-top: 3%;
         font-family:nth($font, 3); 
@@ -717,12 +708,11 @@ li#dropdown-butterfly{
     }
     
     li.boton-menu-butterfly, #dropdown-butterfly{
-        
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: "aAbstractGroovy", cursive;
+        font-family:nth($font, 1);
         width: 7rem;
         height: 1rem;
         background-color: #ffe3f0;
@@ -745,7 +735,7 @@ li#dropdown-butterfly{
         justify-content: center;
         align-items: center;
         text-align: center;
-        font-family: "aAbstractGroovy", cursive;
+        font-family:nth($font, 1);
         width: 7rem;
         height: 1rem;
         background-color: #ffe3f0;

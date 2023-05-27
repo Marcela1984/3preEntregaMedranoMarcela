@@ -554,18 +554,15 @@ a.btn-secondary.dropdown-toggle{
 
     div.caja-botones{
         left: -35%;
-        border: 0.1px solid rgb(255, 255, 255);
-        top: 30%;
         flex-direction: none;
         position: relative;
         flex-wrap: wrap;
         box-shadow: none;
         border-bottom-left-radius: none;
-        transform: translatey(10500%);
+        transform: translatey(130%);
     }
 
     li.boton-menu, .dropdown{
-    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -750,7 +747,6 @@ a.btn-secondary.dropdown-toggle{
             flex-direction: column;
             margin-top: 2%;
             margin-left: 2%;
-            border: 2px solid rgb(255, 255, 255);
         }
 
         form{
@@ -848,7 +844,7 @@ a.btn-secondary.dropdown-toggle{
             justify-content: center;
             align-items: center;
             text-align: center;
-            font-family:'aAbstractGroovy', cursive;
+            font-family: nth($font, 1);
             width: 7rem;
             height: 1rem;
             background-color:#ffe3f0 ;
@@ -874,7 +870,6 @@ a.btn-secondary.dropdown-toggle{
         
         ul.dropdown-menu.show {
             display: block;
-           
             background-color: nth($colores, 16);
             padding-top: 3%;
             font-family:nth($font, 3); 
