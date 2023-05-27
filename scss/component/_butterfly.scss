@@ -10,7 +10,6 @@
     grid-template-rows: 60% 40%;
     grid-template-areas:
     "carousel menuu"
-    "carousel menuu"
     "carousel menuu";   
 
 #grid-menu-desplegable-page-butterfly{
@@ -171,7 +170,9 @@ a.btn-secondary.dropdown-toggle{
     border-bottom-left-radius: 1.8em;
 }
 
-
+#carrousel-pages-butterfly{
+    margin-bottom: 5%;
+}
 
 @include mobile{
     .caja-botones-butterfly{
@@ -185,8 +186,7 @@ a.btn-secondary.dropdown-toggle{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-template-areas:
-        "carousel"
-        "video"       
+        "carousel";      
     }
 
    
@@ -201,21 +201,14 @@ a.btn-secondary.dropdown-toggle{
         display: none;
     } 
 
-    h1 span{
+    h1 span.span-butterfly{
         font-size: 10px;
         padding-top: 2px;
     }
-    h1.tittle-butterfly{
-    justify-self: center;
-    height: 16px;
-    margin-left: 1px;
-    margin-top: 14.5px;
-    left: 7px;
-    position: relative; 
-    }
 
     h1.tittle-butterfly{
-        font-family:nth($font, 1);
+        height: 8%;
+        margin-top: 7%;
     }
 }
 
@@ -254,13 +247,17 @@ a.btn-secondary.dropdown-toggle{
         padding-top: 3px;
     }
 
-    h1.tittle-butterfly{
-    justify-self: center;
-    height: 20px;
-    margin-left: 1px;
-    margin-top: -7px;
-    left: 10px;
-    position: relative;
+    .tittle-butterfly{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        flex-direction: column;
+        margin-top: -8.5px;
+        margin-left: 2%;
+        height: 9%;
+        border-bottom-left-radius: 0.8em;
+        border-bottom-right-radius: 0.8em;  
+        
     }
 
  div.caja-botones-butterfly{
@@ -273,7 +270,7 @@ a.btn-secondary.dropdown-toggle{
     border-bottom-left-radius: none;
      
  }
- ul.ul{
+ ul.ul-butterfly{
    position: relative;
    right: 50px;
    transform: translatey(60%);
@@ -396,9 +393,7 @@ a.btn-secondary.dropdown-toggle{
         display: none;
     }
     
-    section#grid-carousel{
-       
-    }
+   
     
     section#grid-menu-desplegable-page-butterfly{
         grid-area: menuu;
@@ -457,7 +452,7 @@ div.caja-botones-butterfly{
     //transform: translatey(120%);//
 }
 
-ul.ul{
+ul.ul-butterfly{
     position: relative;
     right: 9px;
     transform: translatey(60%);
@@ -644,7 +639,7 @@ li#dropdown-butterfly{
         //transform: translatey(-170%);//
     }
 
-    ul.ul{
+    ul.ul-butterfly{
         position: relative;
         left: 20px;
         transform: translatey(90%);
@@ -775,3 +770,5 @@ li#dropdown-butterfly{
 
 
 
+
+  
