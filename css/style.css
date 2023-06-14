@@ -2743,6 +2743,7 @@ section #galeria-index::-webkit-scrollbar-thumb {
 }
 div#carrousel-pages {
   margin-top: 3%;
+  z-index: -2;
 }
 
 #video-pages {
