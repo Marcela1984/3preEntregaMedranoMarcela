@@ -2738,6 +2738,9 @@ section #galeria-index::-webkit-scrollbar-thumb {
   position: absolute;
   bottom: 5%;
 }
+#grid-contenedor-angel section#grid-carousel {
+  z-index: -2;
+}
 div#carrousel-pages {
   margin-top: 3%;
 }

@@ -63,6 +63,7 @@
     }//</section>*//
 
     section#grid-carousel{
+        z-index: -2;
     h1.tittle-angel{
         span.span-angel{}
     }
@@ -193,6 +194,8 @@ a.btn-secondary.dropdown-toggle{
     box-shadow: 0 0 20px rgba(117, 115, 116, 0.5);
     border-bottom-left-radius: 1.8em;
 }
+
+
 
 //////////////////////////////////////
 @include mobile{
@@ -395,6 +398,7 @@ h1 span.span-angel{
      padding-right: 1.8rem;
      padding-left: 1.8rem;
  }
+
 
  }
 
