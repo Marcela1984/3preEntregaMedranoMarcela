@@ -33,6 +33,7 @@
                             li#dropdown-angel{
                                 a.btn-secondary.dropdown-toggle{}
                                     ul.dropdown-menu{
+                                        z-index: 99!important;
                                         li{
                                         a{}
                                         }
@@ -108,6 +109,7 @@
         width: 80%;
         display: block;
         margin: auto;
+
     }
 
     h1.tittle-angel{
@@ -121,6 +123,10 @@
    
     
 
+
+     ul.dropdown-menu.show{
+        z-index: 10000px;
+     }
 ////////////////////////////////////////////////
 
 
@@ -399,6 +405,8 @@ h1 span.span-angel{
      padding-right: 1.8rem;
      padding-left: 1.8rem;
  }
+
+ 
 
 
  }
